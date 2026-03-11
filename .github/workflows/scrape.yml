@@ -55,12 +55,11 @@ jobs:
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
           node-version: 20
-          cache: npm  # Cache node_modules giữa các lần chạy → install nhanh hơn
 
-      # npm ci: cài đúng theo package-lock.json, không thay đổi dependencies
+      # npm install: cài đặt dependencies trực tiếp từ package.json
       - name: Install dependencies
         if: steps.timecheck.outputs.skip != 'true'
-        run: npm ci
+        run: npm install
 
       - name: Run scraper
         if: steps.timecheck.outputs.skip != 'true'
