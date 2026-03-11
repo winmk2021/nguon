@@ -1,0 +1,14 @@
+node_modules/
+*.log
+page.html
+test_page.html
+test-fetch.js
+.gemini/
+.agent/
+.agents/
+
+# Secrets — không bao giờ commit file này
+.env
+
+# .env.example được phép commit (chỉ chứa placeholder, không có secret thật)
+# !.env.example

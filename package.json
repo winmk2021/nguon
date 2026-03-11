@@ -1,0 +1,22 @@
+{
+  "name": "monplayer",
+  "version": "1.0.0",
+  "description": "MonPlayer Soccer Channel Scraper",
+  "main": "fetch-channel.js",
+  "scripts": {
+    "start": "node fetch-channel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "canvas": "^3.2.1",
+    "cheerio": "^1.2.0",
+    "cloudinary": "^2.9.0",
+    "dotenv": "^17.3.1",
+    "sharp": "^0.33.5"
+  }
+}
