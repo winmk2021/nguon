@@ -8,7 +8,15 @@ const { uploadImage, deleteOldImages } = require("./cloudinary.js");
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const DOMAIN = "https://hoadaotv.net";
+const CANDIDATE_DOMAINS = [
+  "https://hoadaotv.net",
+  "https://hoadao1.tv",
+  "https://hoadaotv.info",
+  "https://hoadaotv.me",
+  "https://hoadaotv.org"
+];
+
+let DOMAIN = CANDIDATE_DOMAINS[0];
 
 /** Tái sử dụng headers thay vì lặp lại ở nhiều nơi */
 const DEFAULT_HEADERS = {
@@ -160,6 +168,35 @@ async function scrapelink(link) {
 }
 
 /**
+ * Tìm kiếm domain hoadaotv nào đang hoạt động bằng cách thử từng domain
+ * trong CANDIDATE_DOMAINS.
+ * @returns {string|null} Domain đang hoạt động, hoặc null nếu không có
+ */
+async function findActiveDomain() {
+  for (const url of CANDIDATE_DOMAINS) {
+    try {
+      console.log(`🔍 Checking domain: ${url}...`);
+      const testUrl = `${url}/soccer`;
+      const { data, status } = await axios.get(testUrl, {
+        headers: DEFAULT_HEADERS,
+        timeout: 8000,
+        validateStatus: () => true // parse mọi status
+      });
+      // Kiểm tra có dữ liệu trang trận đấu hay không (dùng content có .cm-wrap)
+      if (status === 200 && data && data.includes('cm-wrap')) {
+        console.log(`✅ Found active domain: ${url}`);
+        return url;
+      } else {
+        console.log(`❌ Domain ${url} returned invalid content or status (Status: ${status}).`);
+      }
+    } catch (error) {
+      console.log(`❌ Domain ${url} is unreachable (${error.message}).`);
+    }
+  }
+  return null;
+}
+
+/**
  * Crawl trang soccer chính, parse metadata của tất cả trận, và scrape stream
  * links song song với giới hạn SCRAPE_CONCURRENCY.
  * @returns {Array<MatchData>} Danh sách trận kèm stream links
@@ -307,6 +344,13 @@ async function main() {
   const startTime = Date.now();
   console.log("🏁 Starting Scraper...\n");
 
+  const activeDomain = await findActiveDomain();
+  if (activeDomain) {
+    DOMAIN = activeDomain;
+  } else {
+    console.log(`⚠️ Could not find an active domain among candidates. Proceeding with default: ${DOMAIN}`);
+  }
+
   const list = await scrapeSoccer();
   console.log(`\n📊 Scraping done. Total matches: ${list.length}`);
 
@@ -376,6 +420,12 @@ async function main() {
 
     // Xóa ảnh Cloudinary không còn được dùng
     await deleteOldImages(uploadedIds);
+
+    // Ghi nhận domain cuối vào template
+    templateData.url = DOMAIN;
+    if (templateData.share) {
+      templateData.share.url = DOMAIN;
+    }
 
     // Ghi channels.json
     if (!templateData.groups) templateData.groups = [{}];
