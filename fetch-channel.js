@@ -8,7 +8,7 @@ const { uploadImage, deleteOldImages } = require("./cloudinary.js");
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const DOMAIN = "https://hoadaotv.org";
+const DOMAIN = "https://hoadaotv.net";
 
 /** Tái sử dụng headers thay vì lặp lại ở nhiều nơi */
 const DEFAULT_HEADERS = {
