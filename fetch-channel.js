@@ -168,31 +168,95 @@ async function scrapelink(link) {
 }
 
 /**
+ * Tìm kiếm domain hoadaotv bằng DuckDuckGo HTML nếu các domain cứng bị chết hết
+ * @returns {Array<string>} Danh sách domain tiềm năng từ kết quả tìm kiếm
+ */
+async function searchAlternativeDomains() {
+  const query = "hoadaotv trực tiếp bóng đá";
+  const url = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`;
+  try {
+    console.log(`\n🔍 DuckDuckGo fallback: Searching for "${query}"...`);
+    const { data } = await axios.get(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      },
+      timeout: 10000,
+    });
+    const $ = cheerio.load(data);
+    const candidateSet = new Set();
+    
+    $(".result__url").each((_, el) => {
+      let text = $(el).text().trim();
+      // Bỏ qua các trang mạng xã hội
+      if (!text.includes("facebook") && !text.includes("youtube") && !text.includes("tiktok") && text.includes("hoadao")) {
+        let rootDomain = text.split("/")[0].trim();
+        if (rootDomain) {
+          candidateSet.add(`https://${rootDomain}`);
+        }
+      }
+    });
+    const results = Array.from(candidateSet);
+    console.log(`🔎 Found ${results.length} potential domains from search:`, results);
+    return results;
+  } catch (error) {
+    console.error(`❌ Search alternative domains failed: ${error.message}`);
+    return [];
+  }
+}
+
+/**
+ * Kiểm tra xem domain có hoạt động và chứa trang /soccer không
+ * @param {string} url - URL domain muốn kiểm tra (VD: https://hoadaotv.net)
+ * @returns {boolean} true nếu hoạt động
+ */
+async function checkDomainIsActive(url) {
+  try {
+    const testUrl = `${url}/soccer`;
+    const { data, status } = await axios.get(testUrl, {
+      headers: DEFAULT_HEADERS,
+      timeout: 8000,
+      validateStatus: () => true, // parse mọi status
+    });
+    if (status === 200 && typeof data === "string" && data.includes("cm-wrap")) {
+      return true;
+    }
+  } catch (error) {
+    // Catch fetch network errors
+  }
+  return false;
+}
+
+/**
  * Tìm kiếm domain hoadaotv nào đang hoạt động bằng cách thử từng domain
- * trong CANDIDATE_DOMAINS.
+ * trong CANDIDATE_DOMAINS. Nếu thất bại, dò từ Google/DuckDuckGo.
  * @returns {string|null} Domain đang hoạt động, hoặc null nếu không có
  */
 async function findActiveDomain() {
+  // 1. Kiểm tra danh sách cài cắm sẵn trước
   for (const url of CANDIDATE_DOMAINS) {
-    try {
-      console.log(`🔍 Checking domain: ${url}...`);
-      const testUrl = `${url}/soccer`;
-      const { data, status } = await axios.get(testUrl, {
-        headers: DEFAULT_HEADERS,
-        timeout: 8000,
-        validateStatus: () => true // parse mọi status
-      });
-      // Kiểm tra có dữ liệu trang trận đấu hay không (dùng content có .cm-wrap)
-      if (status === 200 && data && data.includes('cm-wrap')) {
-        console.log(`✅ Found active domain: ${url}`);
-        return url;
-      } else {
-        console.log(`❌ Domain ${url} returned invalid content or status (Status: ${status}).`);
-      }
-    } catch (error) {
-      console.log(`❌ Domain ${url} is unreachable (${error.message}).`);
+    console.log(`🔍 Checking pre-defined domain: ${url}...`);
+    if (await checkDomainIsActive(url)) {
+      console.log(`✅ Found active domain: ${url}`);
+      return url;
+    } else {
+      console.log(`❌ Domain ${url} is unreachable or invalid.`);
     }
   }
+
+  // 2. Nếu tất cả đều chết, tiến hành tìm kiếm động
+  console.log("⚠️ All pre-defined domains failed. Triggering search fallback...");
+  const searchResults = await searchAlternativeDomains();
+  for (const url of searchResults) {
+    if (CANDIDATE_DOMAINS.includes(url)) continue; // Bỏ qua nếu đã check
+    console.log(`🔍 Checking discovered domain: ${url}...`);
+    if (await checkDomainIsActive(url)) {
+      console.log(`✅ Found active discovered domain: ${url}`);
+      return url;
+    } else {
+      console.log(`❌ Discovered domain ${url} is unreachable or invalid.`);
+    }
+  }
+
   return null;
 }
 
