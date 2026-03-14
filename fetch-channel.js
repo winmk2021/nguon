@@ -402,6 +402,50 @@ function buildChannel(item, channelId, imageUrl) {
   };
 }
 
+// ─── M3U Builder ─────────────────────────────────────────────────────────────
+
+/**
+ * Tạo nội dung file M3U từ danh sách các item (trận đấu + streams).
+ * Mỗi kênh sẽ dùng stream URL đầu tiên tìm được (ưu tiên: ndsd > hd > sd > fullhd > flv > flv2).
+ * Bao gồm các thuộc tính EXTINF: tvg-logo, group-title, và request headers Referer + User-Agent.
+ * @param {Array} list       - Danh sách MatchData (kết quả từ scrapeSoccer)
+ * @param {Map}   channelMap - Map channelId → channel object (có imageUrl)
+ * @returns {string} Nội dung file M3U
+ */
+function buildM3U(list, channelMap) {
+  const lines = ["#EXTM3U"];
+
+  for (const item of list) {
+    const channelId = stableChannelId(item.matchLink);
+    const channel   = channelMap.get(channelId);
+    if (!channel) continue;
+
+    // Lấy URL stream đầu tiên có sẵn theo thứ tự ưu tiên
+    let streamUrl = null;
+    let referer   = item.matchLink;
+    for (const key of ALLOWED_STREAM_KEYS) {
+      if (item.streams[key]) {
+        streamUrl = item.streams[key];
+        break;
+      }
+    }
+    if (!streamUrl) continue; // Bỏ qua kênh không có stream
+
+    const name       = channel.name;
+    const logoUrl    = channel.image?.url ?? "";
+    const groupTitle = item.league || "⚽ Bóng đá";
+
+    lines.push(
+      `#EXTINF:-1 tvg-id="${channelId}" tvg-logo="${logoUrl}" group-title="${groupTitle}",${name}`,
+      `#EXTVLCOPT:http-referrer=${referer}`,
+      `#EXTVLCOPT:http-user-agent=Mozilla/5.0`,
+      streamUrl
+    );
+  }
+
+  return lines.join("\n") + "\n";
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -498,8 +542,13 @@ async function main() {
     const outputPath = path.join(__dirname, "channels.json");
     fs.writeFileSync(outputPath, JSON.stringify(templateData, null, 4));
 
+    // Ghi channels.m3u
+    const m3uContent = buildM3U(list, channelMap);
+    const m3uPath    = path.join(__dirname, "channels.m3u");
+    fs.writeFileSync(m3uPath, m3uContent, "utf8");
+
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-    console.log(`\n🎉 Done in ${elapsed}s — ${channels.length} channels written to channels.json`);
+    console.log(`\n🎉 Done in ${elapsed}s — ${channels.length} channels written to channels.json & channels.m3u`);
   } catch (error) {
     const msg = error?.message ?? String(error) ?? "Unknown error";
     console.error("❌ Error generating channels.json:", msg);
