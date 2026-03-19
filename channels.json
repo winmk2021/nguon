@@ -21,19 +21,19 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-scdelhivsjamshedpurfc2408868",
-                    "name": "SC Delhi vs Jamshedpur FC",
+                    "id": "ch-spartakvarnavsludogoretsrazgrad2409438",
+                    "name": "Spartak Varna vs Ludogorets Razgrad",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773824320/matches/img-scdelhivsjamshedpurfc2408868.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773824321/matches/img-spartakvarnavsludogoretsrazgrad2409438.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -42,44 +42,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-3ec5cdb7e4b4",
-                            "name": "SC Delhi - Jamshedpur FC",
+                            "id": "src-8c10eb942d12",
+                            "name": "Spartak Varna - Ludogorets Razgrad",
                             "contents": [
                                 {
-                                    "id": "ct-2484e258d751",
-                                    "name": "Indian Super League",
+                                    "id": "ct-1f56b79b6084",
+                                    "name": "Bulgarian First League",
                                     "streams": [
                                         {
-                                            "id": "st-48880b1e5302",
+                                            "id": "st-9488b71ff497",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0eca590614d9",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/af80edc1ed420132ed4704c444235235/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sc-delhi-vs-jamshedpur-fc-2408868"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b3ba9c6f4616",
+                                                    "id": "lnk-f07793169000",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-05/index.m3u8",
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-07/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sc-delhi-vs-jamshedpur-fc-2408868"
+                                                            "value": "https://hoadaotv.net/spartak-varna-vs-ludogorets-razgrad-2409438"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -88,107 +71,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1ca36467baf6",
+                                                    "id": "lnk-1c2ad7e873cf",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-05.flv",
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-07.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sc-delhi-vs-jamshedpur-fc-2408868"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-kayserisporvskaragumruk2408866",
-                    "name": "Kayserispor vs Karagumruk",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773824319/matches/img-kayserisporvskaragumruk2408866.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-ef2993a75440",
-                            "name": "Kayserispor - Karagumruk",
-                            "contents": [
-                                {
-                                    "id": "ct-2da5a34bed6c",
-                                    "name": "Turkish Super League",
-                                    "streams": [
-                                        {
-                                            "id": "st-58629d6c4699",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-47d60c5e94ca",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/74587f599a4faa950947dc9b8541d5bb/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/kayserispor-vs-karagumruk-2408866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-413ca167f1bb",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-10/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/kayserispor-vs-karagumruk-2408866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-80ba965723f5",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-10.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/kayserispor-vs-karagumruk-2408866"
+                                                            "value": "https://hoadaotv.net/spartak-varna-vs-ludogorets-razgrad-2409438"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -210,8 +101,8 @@
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
+                            "text": "● Live",
+                            "color": "#FF0000",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
@@ -226,19 +117,36 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-966b57ac3235",
+                            "id": "src-c4c853447521",
                             "name": "Krylya Sovetov - Lokomotiv Moscow",
                             "contents": [
                                 {
-                                    "id": "ct-083a603b5409",
+                                    "id": "ct-a8372beb25df",
                                     "name": "Russian Cup",
                                     "streams": [
                                         {
-                                            "id": "st-5f8641dab073",
+                                            "id": "st-b78fc6cdae61",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-3f29a7458389",
+                                                    "id": "lnk-daa66f7743c0",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/183c5da0194ff9ce765f3a26bbc5d73b/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/krylya-sovetov-vs-lokomotiv-moscow-2408871"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-55d2571933c5",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -255,7 +163,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f1442ae70fa9",
+                                                    "id": "lnk-e26efb41d1ca",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -280,19 +188,19 @@
                     ]
                 },
                 {
-                    "id": "ch-spartakvarnavsludogoretsrazgrad2409438",
-                    "name": "Spartak Varna vs Ludogorets Razgrad",
+                    "id": "ch-scdelhivsjamshedpurfc2408868",
+                    "name": "SC Delhi vs Jamshedpur FC",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
+                            "text": "● Fulltime",
+                            "color": "#9E9E9E",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773824321/matches/img-spartakvarnavsludogoretsrazgrad2409438.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773824320/matches/img-scdelhivsjamshedpurfc2408868.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -301,52 +209,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-88dc3c8f854f",
-                            "name": "Spartak Varna - Ludogorets Razgrad",
+                            "id": "src-c23b894ee575",
+                            "name": "SC Delhi - Jamshedpur FC",
                             "contents": [
                                 {
-                                    "id": "ct-e25f3759e6c1",
-                                    "name": "Bulgarian First League",
+                                    "id": "ct-05a2c9d13792",
+                                    "name": "Indian Super League",
                                     "streams": [
                                         {
-                                            "id": "st-68f326896d28",
+                                            "id": "st-ee70a3c717d3",
                                             "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-aa0b08e2fd57",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/spartak-varna-vs-ludogorets-razgrad-2409438"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f4879e94124f",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-07.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/spartak-varna-vs-ludogorets-razgrad-2409438"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            "stream_links": []
                                         }
                                     ]
                                 }
@@ -376,19 +249,36 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-ee08f3324dfa",
+                            "id": "src-6365b933b3a5",
                             "name": "AEK Larnaca - Crystal Palace",
                             "contents": [
                                 {
-                                    "id": "ct-8447a59dc4c1",
+                                    "id": "ct-8afb84abbe37",
                                     "name": "UEFA Europa Conference League",
                                     "streams": [
                                         {
-                                            "id": "st-ce67e62b8b1e",
+                                            "id": "st-6f5ba2305c9b",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-9d268e4585cf",
+                                                    "id": "lnk-3f17b89aa16b",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/bb452c69bca38f539d76a1b68ea04e8d/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/aek-larnaca-vs-crystal-palace-2409454"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-44cd1bac1de4",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -405,7 +295,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b2fcab2709ac",
+                                                    "id": "lnk-6d506773d328",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -414,81 +304,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/aek-larnaca-vs-crystal-palace-2409454"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-midtjyllandvsnottinghamforest2409455",
-                    "name": "Midtjylland vs Nottingham Forest",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910379/matches/img-midtjyllandvsnottinghamforest2409455.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-94b501159bcc",
-                            "name": "Midtjylland - Nottingham Forest",
-                            "contents": [
-                                {
-                                    "id": "ct-a76670f5e4e2",
-                                    "name": "UEFA Europa League",
-                                    "streams": [
-                                        {
-                                            "id": "st-d2807ddacef1",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-aca6c76dd299",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-09/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/midtjylland-vs-nottingham-forest-2409455"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-691bfbbe3fb8",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-09.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/midtjylland-vs-nottingham-forest-2409455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -526,19 +341,36 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-926ffb023a24",
+                            "id": "src-8832f3d7770a",
                             "name": "Lyon - RC Celta",
                             "contents": [
                                 {
-                                    "id": "ct-9cfd349667c3",
+                                    "id": "ct-14d712356aa4",
                                     "name": "UEFA Europa League",
                                     "streams": [
                                         {
-                                            "id": "st-ee9b4a74bb94",
+                                            "id": "st-825342ef40f6",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-9bea83263850",
+                                                    "id": "lnk-f54b1b9e41be",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/208d7ad21e09902b050ddf2aead35e10/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/lyon-vs-rc-celta-2409459"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-ced78bf58ec2",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -555,7 +387,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e69180750e5e",
+                                                    "id": "lnk-7fe5205cee09",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -564,6 +396,190 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/lyon-vs-rc-celta-2409459"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-midtjyllandvsnottinghamforest2409455",
+                    "name": "Midtjylland vs Nottingham Forest",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910379/matches/img-midtjyllandvsnottinghamforest2409455.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-ab526e347e91",
+                            "name": "Midtjylland - Nottingham Forest",
+                            "contents": [
+                                {
+                                    "id": "ct-867d08423d06",
+                                    "name": "UEFA Europa League",
+                                    "streams": [
+                                        {
+                                            "id": "st-6b807a4e0fb3",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-ae2e22337f04",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/e6fee88dd834f2052298e2dd4b1f4c57/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/midtjylland-vs-nottingham-forest-2409455"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-d051a3325469",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-09/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/midtjylland-vs-nottingham-forest-2409455"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-e7e4b25ce181",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-09.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/midtjylland-vs-nottingham-forest-2409455"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-fcportovsvfbstuttgart2409481",
+                    "name": "FC Porto vs VfB Stuttgart",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910381/matches/img-fcportovsvfbstuttgart2409481.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-22160b0fa3cc",
+                            "name": "FC Porto - VfB Stuttgart",
+                            "contents": [
+                                {
+                                    "id": "ct-bb4b6a0cb632",
+                                    "name": "UEFA Europa League",
+                                    "streams": [
+                                        {
+                                            "id": "st-eccfeda86290",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-b194404e87be",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/63cd298a0905141515ce8763129db833/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/fc-porto-vs-vfb-stuttgart-2409481"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-d106feac177e",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-08/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/fc-porto-vs-vfb-stuttgart-2409481"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-adff14c63d55",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-08.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/fc-porto-vs-vfb-stuttgart-2409481"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -601,92 +617,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-d0dbe9013d2a",
+                            "id": "src-2cab4baf4e22",
                             "name": "AS Roma - Bologna",
                             "contents": [
                                 {
-                                    "id": "ct-72b6989fcfc4",
+                                    "id": "ct-77c94ba4819c",
                                     "name": "UEFA Europa League",
                                     "streams": [
                                         {
-                                            "id": "st-86cdefbf563b",
+                                            "id": "st-a44f4d3cf1ff",
                                             "name": "Stream",
                                             "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcportovsvfbstuttgart2409481",
-                    "name": "FC Porto vs VfB Stuttgart",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910381/matches/img-fcportovsvfbstuttgart2409481.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-97f02c67a83c",
-                            "name": "FC Porto - VfB Stuttgart",
-                            "contents": [
-                                {
-                                    "id": "ct-898510433d4a",
-                                    "name": "UEFA Europa League",
-                                    "streams": [
-                                        {
-                                            "id": "st-5ab7a5b95dce",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-980f59a9fbec",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-08/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/fc-porto-vs-vfb-stuttgart-2409481"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2b32534cd855",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-08.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/fc-porto-vs-vfb-stuttgart-2409481"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
                                         }
                                     ]
                                 }
@@ -716,92 +657,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-81bf5fd0be86",
+                            "id": "src-da92c5262f6a",
                             "name": "Aston Villa - LOSC Lille",
                             "contents": [
                                 {
-                                    "id": "ct-3214cd699785",
+                                    "id": "ct-83c7431ab10f",
                                     "name": "UEFA Europa League",
                                     "streams": [
                                         {
-                                            "id": "st-088bbb3b2844",
+                                            "id": "st-6ecb19457a26",
                                             "name": "Stream",
                                             "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-gremiovsvitoriaba2409497",
-                    "name": "Gremio vs Vitoria BA",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910383/matches/img-gremiovsvitoriaba2409497.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-5ab8409f5868",
-                            "name": "Gremio - Vitoria BA",
-                            "contents": [
-                                {
-                                    "id": "ct-02423600ee19",
-                                    "name": "Brazilian Serie A",
-                                    "streams": [
-                                        {
-                                            "id": "st-168bcba5bf2c",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-714574747bc9",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/gremio-vs-vitoria-ba-2409497"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-01f94ec225e5",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/gremio-vs-vitoria-ba-2409497"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
                                         }
                                     ]
                                 }
@@ -831,19 +697,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-69c5e45a346a",
+                            "id": "src-689361d4c109",
                             "name": "Mount Pleasant FA - Los Angeles Galaxy",
                             "contents": [
                                 {
-                                    "id": "ct-14b4b7aae17d",
+                                    "id": "ct-fa2cf3b1e2ff",
                                     "name": "CONCACAF Champions Cup",
                                     "streams": [
                                         {
-                                            "id": "st-f5f66755677f",
+                                            "id": "st-6acc862a4232",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0c83dc176eb6",
+                                                    "id": "lnk-f96e25cb3d37",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -860,7 +726,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cdc516417f0c",
+                                                    "id": "lnk-8d84daf56679",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -906,17 +772,92 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-403c6f382e81",
+                            "id": "src-768a846f9969",
                             "name": "Real Betis - Panathinaikos",
                             "contents": [
                                 {
-                                    "id": "ct-5131a8f20ee2",
+                                    "id": "ct-bb79b6f1ed36",
                                     "name": "UEFA Europa League",
                                     "streams": [
                                         {
-                                            "id": "st-f167dcc7b1cf",
+                                            "id": "st-910fcbca7f92",
                                             "name": "Stream",
                                             "stream_links": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-gremiovsvitoriaba2409497",
+                    "name": "Gremio vs Vitoria BA",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910383/matches/img-gremiovsvitoriaba2409497.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-c38702ac3aac",
+                            "name": "Gremio - Vitoria BA",
+                            "contents": [
+                                {
+                                    "id": "ct-b38ed83999d0",
+                                    "name": "Brazilian Serie A",
+                                    "streams": [
+                                        {
+                                            "id": "st-edb2a4864cb8",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-eb00f5425973",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/gremio-vs-vitoria-ba-2409497"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-7b0eb5591abc",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/gremio-vs-vitoria-ba-2409497"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -946,15 +887,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b00d2bcedd77",
+                            "id": "src-935e3ba98a82",
                             "name": "Chapecoense SC - Sport Club Corinthians Paulista",
                             "contents": [
                                 {
-                                    "id": "ct-dc97ad044fe4",
+                                    "id": "ct-a2e5e5ae0b50",
                                     "name": "Brazilian Serie A",
                                     "streams": [
                                         {
-                                            "id": "st-f90784607bcc",
+                                            "id": "st-a2d9a11330fb",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -986,15 +927,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-03eb53dd1734",
+                            "id": "src-828e82f70c72",
                             "name": "CR Flamengo - Remo Belem (PA)",
                             "contents": [
                                 {
-                                    "id": "ct-24eebfa48e8f",
+                                    "id": "ct-05f1a13388b5",
                                     "name": "Brazilian Serie A",
                                     "streams": [
                                         {
-                                            "id": "st-c27099303da5",
+                                            "id": "st-ceb521db0439",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -1026,15 +967,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-61bdf7a162dd",
+                            "id": "src-073dce8e2ee4",
                             "name": "Tigres UANL - FC Cincinnati",
                             "contents": [
                                 {
-                                    "id": "ct-a0a14ba0dc0d",
+                                    "id": "ct-450db6a24e1b",
                                     "name": "CONCACAF Champions Cup",
                                     "streams": [
                                         {
-                                            "id": "st-111e16a93067",
+                                            "id": "st-cfbcc65d72d1",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -1066,17 +1007,92 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-2d831b2e0fd8",
+                            "id": "src-44afb1758405",
                             "name": "Dep.Independiente Medellin - Atletico Junior Barranquilla",
                             "contents": [
                                 {
-                                    "id": "ct-8e260dfdaa20",
+                                    "id": "ct-92b296348752",
                                     "name": "Categoría Primera A",
                                     "streams": [
                                         {
-                                            "id": "st-b417680e678e",
+                                            "id": "st-1d211a983632",
                                             "name": "Stream",
                                             "stream_links": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-westernsydneyvsadelaideunited2409532",
+                    "name": "Western Sydney vs Adelaide United",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910387/matches/img-westernsydneyvsadelaideunited2409532.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-764870ef593d",
+                            "name": "Western Sydney - Adelaide United",
+                            "contents": [
+                                {
+                                    "id": "ct-e4635b61852e",
+                                    "name": "Australia A-League",
+                                    "streams": [
+                                        {
+                                            "id": "st-29acd3ba3395",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-241fe9df270f",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-bdebdd4751d7",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -1106,15 +1122,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b8ff07692038",
+                            "id": "src-12a8fa00663e",
                             "name": "Albirex Niigata - Kataller Toyama",
                             "contents": [
                                 {
-                                    "id": "ct-66558abdd9fc",
+                                    "id": "ct-96f729ab70d2",
                                     "name": "J2/J3 100 Year Vision League",
                                     "streams": [
                                         {
-                                            "id": "st-93890a947652",
+                                            "id": "st-58103d6f1150",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -1146,19 +1162,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-7e147396524e",
+                            "id": "src-06e163c3f028",
                             "name": "Brisbane Roar Women - Newcastle Jets Women",
                             "contents": [
                                 {
-                                    "id": "ct-7e1bf0c894eb",
+                                    "id": "ct-94b844cead5e",
                                     "name": "Australia W-League",
                                     "streams": [
                                         {
-                                            "id": "st-ea2459d9e9d1",
+                                            "id": "st-42e14ca4af94",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-1e0c7459643b",
+                                                    "id": "lnk-503f202bbf5c",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1175,7 +1191,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c02d0cdd4a41",
+                                                    "id": "lnk-053992047ec7",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1184,81 +1200,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/brisbane-roar-women-vs-newcastle-jets-women-2409535"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-westernsydneyvsadelaideunited2409532",
-                    "name": "Western Sydney vs Adelaide United",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910387/matches/img-westernsydneyvsadelaideunited2409532.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-e0e198671ef4",
-                            "name": "Western Sydney - Adelaide United",
-                            "contents": [
-                                {
-                                    "id": "ct-c01c39ddebd1",
-                                    "name": "Australia A-League",
-                                    "streams": [
-                                        {
-                                            "id": "st-4dd42463b7ba",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-9c9ca8b6828a",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-bdccb9beb070",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1296,15 +1237,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-977adcebf6bd",
+                            "id": "src-183645fb8148",
                             "name": "Dalian Yingbo - Shanghai Port",
                             "contents": [
                                 {
-                                    "id": "ct-73356ed5d15c",
+                                    "id": "ct-3010a3e1a892",
                                     "name": "Chinese Football Super League",
                                     "streams": [
                                         {
-                                            "id": "st-73b8e9eabbdd",
+                                            "id": "st-db0a0353e8b9",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -1336,19 +1277,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-9d442f80a515",
+                            "id": "src-377f449e7d38",
                             "name": "Cong An Ho Chi Minh City - Truong Tuoi Dong Nai",
                             "contents": [
                                 {
-                                    "id": "ct-de30d4c3246e",
+                                    "id": "ct-9409ebe86373",
                                     "name": "Vietnam National Cup",
                                     "streams": [
                                         {
-                                            "id": "st-858b0ce9d126",
+                                            "id": "st-94a0076cc70b",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-7691fb0e5963",
+                                                    "id": "lnk-8be572a02033",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1365,7 +1306,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8bd474751c3e",
+                                                    "id": "lnk-315db109e8c2",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1374,81 +1315,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/cong-an-ho-chi-minh-city-vs-truong-tuoi-dong-nai-2409589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-sheffieldwedu21vsbrentfordu212409636",
-                    "name": "Sheffield Wed U21 vs Brentford U21",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910389/matches/img-sheffieldwedu21vsbrentfordu212409636.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-a454215ba81e",
-                            "name": "Sheffield Wed U21 - Brentford U21",
-                            "contents": [
-                                {
-                                    "id": "ct-13efe6378140",
-                                    "name": "English U21 Professional Development League 2",
-                                    "streams": [
-                                        {
-                                            "id": "st-ea0461a0bf65",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-32e2d123822e",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-08/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sheffield-wed-u21-vs-brentford-u21-2409636"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-952d79b7061c",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-08.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sheffield-wed-u21-vs-brentford-u21-2409636"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1486,15 +1352,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-3cfa1190a42d",
+                            "id": "src-5cd1ace0e909",
                             "name": "Qingdao Hainiu - Zhejiang Professional FC",
                             "contents": [
                                 {
-                                    "id": "ct-12a82a163dcd",
+                                    "id": "ct-75998e26ecac",
                                     "name": "Chinese Football Super League",
                                     "streams": [
                                         {
-                                            "id": "st-0069d65a5c35",
+                                            "id": "st-0abf0df35ca4",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -1505,8 +1371,8 @@
                     ]
                 },
                 {
-                    "id": "ch-rotorvolgogradvsfakelvoronezh2409990",
-                    "name": "Rotor Volgograd vs Fakel Voronezh",
+                    "id": "ch-sheffieldwedu21vsbrentfordu212409636",
+                    "name": "Sheffield Wed U21 vs Brentford U21",
                     "labels": [
                         {
                             "position": "top-left",
@@ -1517,7 +1383,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910390/matches/img-rotorvolgogradvsfakelvoronezh2409990.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910389/matches/img-sheffieldwedu21vsbrentfordu212409636.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -1526,27 +1392,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-1dd7158144f4",
-                            "name": "Rotor Volgograd - Fakel Voronezh",
+                            "id": "src-42a93e0db73d",
+                            "name": "Sheffield Wed U21 - Brentford U21",
                             "contents": [
                                 {
-                                    "id": "ct-4c356947063a",
-                                    "name": "Russian First LeagueLeague",
+                                    "id": "ct-882539a0ca3e",
+                                    "name": "English U21 Professional Development League 2",
                                     "streams": [
                                         {
-                                            "id": "st-fef58ed52e64",
+                                            "id": "st-08b3f0e07c20",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-d96685c841d4",
+                                                    "id": "lnk-cd2a223746ce",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-08/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/rotor-volgograd-vs-fakel-voronezh-2409990"
+                                                            "value": "https://hoadaotv.net/sheffield-wed-u21-vs-brentford-u21-2409636"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1555,15 +1421,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-82a3d75dcc63",
+                                                    "id": "lnk-5c25a355896d",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-08.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/rotor-volgograd-vs-fakel-voronezh-2409990"
+                                                            "value": "https://hoadaotv.net/sheffield-wed-u21-vs-brentford-u21-2409636"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1601,19 +1467,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-99762bd3c974",
+                            "id": "src-726ea306cc4e",
                             "name": "Haras El Hodood - Ismaily SC",
                             "contents": [
                                 {
-                                    "id": "ct-b5ef516fbdc7",
+                                    "id": "ct-76043cedbdbf",
                                     "name": "Egyptian Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-b5bc1d72dd7a",
+                                            "id": "st-db48a80e3923",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-270b3bed832c",
+                                                    "id": "lnk-7b8231e51193",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1630,7 +1496,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-768244368010",
+                                                    "id": "lnk-06283372ac4a",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1639,6 +1505,81 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/haras-el-hodood-vs-ismaily-sc-2410931"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-rotorvolgogradvsfakelvoronezh2409990",
+                    "name": "Rotor Volgograd vs Fakel Voronezh",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910390/matches/img-rotorvolgogradvsfakelvoronezh2409990.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-e1238f5b92c9",
+                            "name": "Rotor Volgograd - Fakel Voronezh",
+                            "contents": [
+                                {
+                                    "id": "ct-81a6719bf750",
+                                    "name": "Russian First LeagueLeague",
+                                    "streams": [
+                                        {
+                                            "id": "st-1f3cce7c4cdb",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-8607494a86a0",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rotor-volgograd-vs-fakel-voronezh-2409990"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-a61da6701053",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rotor-volgograd-vs-fakel-voronezh-2409990"
                                                         },
                                                         {
                                                             "key": "User-Agent",
