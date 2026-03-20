@@ -21,121 +21,6 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-dalianyingbovsshanghaiport2409571",
-                    "name": "Dalian Yingbo vs Shanghai Port",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910388/matches/img-dalianyingbovsshanghaiport2409571.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-3175d9d12544",
-                            "name": "Dalian Yingbo - Shanghai Port",
-                            "contents": [
-                                {
-                                    "id": "ct-33dd7f79633f",
-                                    "name": "Chinese Football Super League",
-                                    "streams": [
-                                        {
-                                            "id": "st-e8997efd4927",
-                                            "name": "Stream",
-                                            "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-brisbaneroarwomenvsnewcastlejetswomen2409535",
-                    "name": "Brisbane Roar Women vs Newcastle Jets Women",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910387/matches/img-brisbaneroarwomenvsnewcastlejetswomen2409535.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-5dbb856496a3",
-                            "name": "Brisbane Roar Women - Newcastle Jets Women",
-                            "contents": [
-                                {
-                                    "id": "ct-0459653004c8",
-                                    "name": "Australia W-League",
-                                    "streams": [
-                                        {
-                                            "id": "st-9c06c77eb9de",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-a91575bdefe4",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-10/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/brisbane-roar-women-vs-newcastle-jets-women-2409535"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b3f848fa2d3d",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-10.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/brisbane-roar-women-vs-newcastle-jets-women-2409535"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "id": "ch-westernsydneyvsadelaideunited2409532",
                     "name": "Western Sydney vs Adelaide United",
                     "labels": [
@@ -157,19 +42,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b586e037df2a",
+                            "id": "src-f25c4bf2a467",
                             "name": "Western Sydney - Adelaide United",
                             "contents": [
                                 {
-                                    "id": "ct-618261660198",
+                                    "id": "ct-bab26b1b695c",
                                     "name": "Australia A-League",
                                     "streams": [
                                         {
-                                            "id": "st-a560b2474905",
+                                            "id": "st-d35cb7ab5dbf",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-9baf0de39656",
+                                                    "id": "lnk-58337e874e08",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
@@ -186,11 +71,11 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-19062f0b9106",
-                                                    "name": "SD",
+                                                    "id": "lnk-21525177ac9a",
+                                                    "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-11/index.m3u8",
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -203,11 +88,62 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c8a674d376cf",
+                                                    "id": "lnk-fd4c9da099a8",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-29f5172dcfc9",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-eb4fa729a061",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-11.flv",
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/western-sydney-vs-adelaide-united-2409532"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-d73a2eb29603",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -228,8 +164,8 @@
                     ]
                 },
                 {
-                    "id": "ch-qingdaohainiuvszhejiangprofessionalfc2409576",
-                    "name": "Qingdao Hainiu vs Zhejiang Professional FC",
+                    "id": "ch-dalianyingbovsshanghaiport2409571",
+                    "name": "Dalian Yingbo vs Shanghai Port",
                     "labels": [
                         {
                             "position": "top-left",
@@ -240,7 +176,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910388/matches/img-qingdaohainiuvszhejiangprofessionalfc2409576.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910388/matches/img-dalianyingbovsshanghaiport2409571.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -249,15 +185,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-121aac546b68",
-                            "name": "Qingdao Hainiu - Zhejiang Professional FC",
+                            "id": "src-3ce27c8f69dc",
+                            "name": "Dalian Yingbo - Shanghai Port",
                             "contents": [
                                 {
-                                    "id": "ct-66aa96b98987",
+                                    "id": "ct-978732f1cf27",
                                     "name": "Chinese Football Super League",
                                     "streams": [
                                         {
-                                            "id": "st-afde5c28b926",
+                                            "id": "st-193d68cf9ec1",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -268,19 +204,19 @@
                     ]
                 },
                 {
-                    "id": "ch-conganhochiminhcityvstruongtuoidongnai2409589",
-                    "name": "Cong An Ho Chi Minh City vs Truong Tuoi Dong Nai",
+                    "id": "ch-brisbaneroarwomenvsnewcastlejetswomen2409535",
+                    "name": "Brisbane Roar Women vs Newcastle Jets Women",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
+                            "text": "● Live",
+                            "color": "#FF0000",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910389/matches/img-conganhochiminhcityvstruongtuoidongnai2409589.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910387/matches/img-brisbaneroarwomenvsnewcastlejetswomen2409535.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -289,27 +225,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-aedb112e15a0",
-                            "name": "Cong An Ho Chi Minh City - Truong Tuoi Dong Nai",
+                            "id": "src-2378ba37acb0",
+                            "name": "Brisbane Roar Women - Newcastle Jets Women",
                             "contents": [
                                 {
-                                    "id": "ct-f58e96d5cb02",
-                                    "name": "Vietnam National Cup",
+                                    "id": "ct-e918b34ca2a3",
+                                    "name": "Australia W-League",
                                     "streams": [
                                         {
-                                            "id": "st-d2ff1abeba9f",
+                                            "id": "st-d90ddfa5b36d",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-7b3241e7451a",
-                                                    "name": "SD",
+                                                    "id": "lnk-b2ce851ea6eb",
+                                                    "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-07/index.m3u8",
+                                                    "url": "https://live.alilicloud.com/live/6ee4faa8e8c15dcb3321e924eab4f192/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/cong-an-ho-chi-minh-city-vs-truong-tuoi-dong-nai-2409589"
+                                                            "value": "https://hoadaotv.net/brisbane-roar-women-vs-newcastle-jets-women-2409535"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -318,15 +254,32 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-56e47b8307b5",
-                                                    "name": "FL",
+                                                    "id": "lnk-bd016611bd00",
+                                                    "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-07.flv",
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-10/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/cong-an-ho-chi-minh-city-vs-truong-tuoi-dong-nai-2409589"
+                                                            "value": "https://hoadaotv.net/brisbane-roar-women-vs-newcastle-jets-women-2409535"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-ec58126a55e0",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-10.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/brisbane-roar-women-vs-newcastle-jets-women-2409535"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -364,19 +317,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-236b884f01b9",
+                            "id": "src-117b881208da",
                             "name": "Sheffield Wed U21 - Brentford U21",
                             "contents": [
                                 {
-                                    "id": "ct-517d3bc08ff3",
+                                    "id": "ct-7d4fd3afb4e7",
                                     "name": "English U21 Professional Development League 2",
                                     "streams": [
                                         {
-                                            "id": "st-eea18ba105f4",
+                                            "id": "st-bfa589dd89c7",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-96560cd6b4f6",
+                                                    "id": "lnk-f322755a0303",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -393,7 +346,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-52933fb9ae5a",
+                                                    "id": "lnk-ad14f6df8d73",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -418,8 +371,8 @@
                     ]
                 },
                 {
-                    "id": "ch-haraselhodoodvsismailysc2410931",
-                    "name": "Haras El Hodood vs Ismaily SC",
+                    "id": "ch-qingdaohainiuvszhejiangprofessionalfc2409576",
+                    "name": "Qingdao Hainiu vs Zhejiang Professional FC",
                     "labels": [
                         {
                             "position": "top-left",
@@ -430,7 +383,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910390/matches/img-haraselhodoodvsismailysc2410931.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910388/matches/img-qingdaohainiuvszhejiangprofessionalfc2409576.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -439,52 +392,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-8ef3ea7ffbcc",
-                            "name": "Haras El Hodood - Ismaily SC",
+                            "id": "src-8c1f2e2d62e4",
+                            "name": "Qingdao Hainiu - Zhejiang Professional FC",
                             "contents": [
                                 {
-                                    "id": "ct-074009fe20e1",
-                                    "name": "Egyptian Premier League",
+                                    "id": "ct-c41cd01706e8",
+                                    "name": "Chinese Football Super League",
                                     "streams": [
                                         {
-                                            "id": "st-9d6bbfb59c8a",
+                                            "id": "st-4f44c8772691",
                                             "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-4407432a5613",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-09/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/haras-el-hodood-vs-ismaily-sc-2410931"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-94f9c68c4720",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-09.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/haras-el-hodood-vs-ismaily-sc-2410931"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            "stream_links": []
                                         }
                                     ]
                                 }
@@ -493,19 +411,19 @@
                     ]
                 },
                 {
-                    "id": "ch-manlyutdwomenvsnortherntigersfcwomen2409975",
-                    "name": "Manly Utd Women vs Northern Tigers FC Women",
+                    "id": "ch-conganhochiminhcityvstruongtuoidongnai2409589",
+                    "name": "Cong An Ho Chi Minh City vs Truong Tuoi Dong Nai",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773996692/matches/img-manlyutdwomenvsnortherntigersfcwomen2409975.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910389/matches/img-conganhochiminhcityvstruongtuoidongnai2409589.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -514,27 +432,44 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-2c7fed63f9b0",
-                            "name": "Manly Utd Women - Northern Tigers FC Women",
+                            "id": "src-7b1c5747bf9c",
+                            "name": "Cong An Ho Chi Minh City - Truong Tuoi Dong Nai",
                             "contents": [
                                 {
-                                    "id": "ct-5242c45afbdb",
-                                    "name": "Australia New South Wales Women's League",
+                                    "id": "ct-16e88d7caa38",
+                                    "name": "Vietnam National Cup",
                                     "streams": [
                                         {
-                                            "id": "st-c17cb8453e92",
+                                            "id": "st-37c30ed49bf7",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-02a18a731fc8",
-                                                    "name": "Nhà đài",
+                                                    "id": "lnk-a605e0a218f4",
+                                                    "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live.alilicloud.com/live/34b90f879789d8f004de0ffb09960cde/playlist.m3u8",
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-07/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/manly-utd-women-vs-northern-tigers-fc-women-2409975"
+                                                            "value": "https://hoadaotv.net/cong-an-ho-chi-minh-city-vs-truong-tuoi-dong-nai-2409589"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-b8c7b5094bd4",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-07.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/cong-an-ho-chi-minh-city-vs-truong-tuoi-dong-nai-2409589"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -572,19 +507,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-818933bbb5e1",
+                            "id": "src-889cb26f8cce",
                             "name": "Rotor Volgograd - Fakel Voronezh",
                             "contents": [
                                 {
-                                    "id": "ct-7feb86b27b4c",
+                                    "id": "ct-c1999afa1a78",
                                     "name": "Russian First LeagueLeague",
                                     "streams": [
                                         {
-                                            "id": "st-b031a67ab0ca",
+                                            "id": "st-3171aca3b31b",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-edacc96d512b",
+                                                    "id": "lnk-66babe22a140",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -601,7 +536,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f8bc4ba5f8d5",
+                                                    "id": "lnk-18604069f54b",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -610,6 +545,1195 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/rotor-volgograd-vs-fakel-voronezh-2409990"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-haraselhodoodvsismailysc2410931",
+                    "name": "Haras El Hodood vs Ismaily SC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1773910390/matches/img-haraselhodoodvsismailysc2410931.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-fbfe92539b67",
+                            "name": "Haras El Hodood - Ismaily SC",
+                            "contents": [
+                                {
+                                    "id": "ct-272ce5a64c03",
+                                    "name": "Egyptian Premier League",
+                                    "streams": [
+                                        {
+                                            "id": "st-012b2c17024f",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-6a2a6f76bf02",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046426067.global.cdnfastest.com/live/link-09/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/haras-el-hodood-vs-ismaily-sc-2410931"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-202f1c3872a4",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://3046542010.global.cdnfastest.com/live/link-09.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/haras-el-hodood-vs-ismaily-sc-2410931"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-cagliarivsnapoli2410027",
+                    "name": "Cagliari vs Napoli",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000297/matches/img-cagliarivsnapoli2410027.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-1865e8348555",
+                            "name": "Cagliari - Napoli",
+                            "contents": [
+                                {
+                                    "id": "ct-aaa42a061321",
+                                    "name": "Italian Serie A",
+                                    "streams": [
+                                        {
+                                            "id": "st-d40e8d2b9060",
+                                            "name": "Stream",
+                                            "stream_links": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-genoavsudinese2410142",
+                    "name": "Genoa vs Udinese",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000297/matches/img-genoavsudinese2410142.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-cf4241c16773",
+                            "name": "Genoa - Udinese",
+                            "contents": [
+                                {
+                                    "id": "ct-631e7cd1974d",
+                                    "name": "Italian Serie A",
+                                    "streams": [
+                                        {
+                                            "id": "st-d4aad53dc035",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-f5c52c41d73a",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/genoa-vs-udinese-2410142"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-6e5cfc1b0d10",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/genoa-vs-udinese-2410142"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-862c63b9f006",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/genoa-vs-udinese-2410142"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-faf446d98b9c",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/genoa-vs-udinese-2410142"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-6da6a31378b2",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/genoa-vs-udinese-2410142"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-rbleipzigvstsghoffenheim2410123",
+                    "name": "RB Leipzig vs TSG Hoffenheim",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000298/matches/img-rbleipzigvstsghoffenheim2410123.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-d26cd6e09ffd",
+                            "name": "RB Leipzig - TSG Hoffenheim",
+                            "contents": [
+                                {
+                                    "id": "ct-8b17e969c23f",
+                                    "name": "Bundesliga",
+                                    "streams": [
+                                        {
+                                            "id": "st-c97f71dc2580",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-13e10ca99568",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rb-leipzig-vs-tsg-hoffenheim-2410123"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-f4ef25391b25",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rb-leipzig-vs-tsg-hoffenheim-2410123"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-3af3ac767a0b",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rb-leipzig-vs-tsg-hoffenheim-2410123"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c1b8cd9e8fe5",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-09.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rb-leipzig-vs-tsg-hoffenheim-2410123"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-85c6a5e02e0d",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-09.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/rb-leipzig-vs-tsg-hoffenheim-2410123"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-bournemouthafcvsmanchesterunitedquay2413870",
+                    "name": "Bournemouth AFC vs Manchester United",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000298/matches/img-bournemouthafcvsmanchesterunitedquay2413870.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-571729a9f90c",
+                            "name": "Bournemouth AFC - Manchester United",
+                            "contents": [
+                                {
+                                    "id": "ct-fad3fbf0c1d8",
+                                    "name": "Đầu Cầu Trung Lập",
+                                    "streams": [
+                                        {
+                                            "id": "st-f0881acd7192",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-99652cc401a8",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-04/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/bournemouth-afc-vs-manchester-united-quay-2413870"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-aff36253094b",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-04/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/bournemouth-afc-vs-manchester-united-quay-2413870"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-0e2f75bd42da",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-04/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/bournemouth-afc-vs-manchester-united-quay-2413870"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c5145c4aa4b7",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-04.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/bournemouth-afc-vs-manchester-united-quay-2413870"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c2b9d99fcfe1",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-04.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/bournemouth-afc-vs-manchester-united-quay-2413870"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-banikostravau19vsmfkkarvinau192409534",
+                    "name": "Banik Ostrava U19 vs MFK Karvina U19",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000299/matches/img-banikostravau19vsmfkkarvinau192409534.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-6c189ab4f806",
+                            "name": "Banik Ostrava U19 - MFK Karvina U19",
+                            "contents": [
+                                {
+                                    "id": "ct-dca4c8c5664a",
+                                    "name": "Czech U19 League",
+                                    "streams": [
+                                        {
+                                            "id": "st-3ed2f76c3375",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-7241f7663c55",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/68f053f1cddf5f7475077752da45be93/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/banik-ostrava-u19-vs-mfk-karvina-u19-2409534"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-edgewortheaglesfcvsvalentine2409537",
+                    "name": "Edgeworth Eagles FC vs Valentine",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000299/matches/img-edgewortheaglesfcvsvalentine2409537.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-353e3afc4000",
+                            "name": "Edgeworth Eagles FC - Valentine",
+                            "contents": [
+                                {
+                                    "id": "ct-db33710359da",
+                                    "name": "Australia Northern New South Wales Premier League",
+                                    "streams": [
+                                        {
+                                            "id": "st-04ad2d16c2ea",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-ff777578cffd",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/ceb79d5055b5c8192a7158a69d5ba370/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/edgeworth-eagles-fc-vs-valentine-2409537"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-criacaoshinjukuvsreinmeeraomorifc2409978",
+                    "name": "Criacao Shinjuku vs Reinmeer Aomori FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000300/matches/img-criacaoshinjukuvsreinmeeraomorifc2409978.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-7b1ba12bcdd7",
+                            "name": "Criacao Shinjuku - Reinmeer Aomori FC",
+                            "contents": [
+                                {
+                                    "id": "ct-2c93f945ac1b",
+                                    "name": "Japanese Football League",
+                                    "streams": [
+                                        {
+                                            "id": "st-74af00ac6b66",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-4637a8c7a57e",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/789b8c8e4c502e2c072b6d939043f4f7/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/criacao-shinjuku-vs-reinmeer-aomori-fc-2409978"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-adelaideraidersscvsadelaideatletico2409539",
+                    "name": "Adelaide Raiders SC vs Adelaide Atletico",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000300/matches/img-adelaideraidersscvsadelaideatletico2409539.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-e18b60d0d13b",
+                            "name": "Adelaide Raiders SC - Adelaide Atletico",
+                            "contents": [
+                                {
+                                    "id": "ct-12045fdc49ea",
+                                    "name": "South Australia State League 1",
+                                    "streams": [
+                                        {
+                                            "id": "st-969f32ff28a9",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-b77ef2496ac5",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/079ee5f3e1aaaa4dd04bb59b458d6c01/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/adelaide-raiders-sc-vs-adelaide-atletico-2409539"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-oakleighcannonsvscarolinespringsgeorgecross2409540",
+                    "name": "Oakleigh Cannons vs Caroline Springs George Cross",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000301/matches/img-oakleighcannonsvscarolinespringsgeorgecross2409540.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-8e38458b4ba5",
+                            "name": "Oakleigh Cannons - Caroline Springs George Cross",
+                            "contents": [
+                                {
+                                    "id": "ct-e9a73519d4c7",
+                                    "name": "National Premier Leagues Victoria",
+                                    "streams": [
+                                        {
+                                            "id": "st-bb85172f67f7",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-49b7060b4e98",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/d366103165c0cc012eb0437ee54690a6/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/oakleigh-cannons-vs-caroline-springs-george-cross-2409540"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-easternunitedvsadelaidecobrasfc2409542",
+                    "name": "Eastern United vs Adelaide Cobras FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000301/matches/img-easternunitedvsadelaidecobrasfc2409542.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-6d612e897741",
+                            "name": "Eastern United - Adelaide Cobras FC",
+                            "contents": [
+                                {
+                                    "id": "ct-368e3e1024df",
+                                    "name": "South Australia State League 1",
+                                    "streams": [
+                                        {
+                                            "id": "st-b69fb04f7a89",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-6832be900ba1",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/7b01db56a47da090221d6dcca9062a48/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/eastern-united-vs-adelaide-cobras-fc-2409542"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-launcestoncityvsriversideolympic2409543",
+                    "name": "Launceston City vs Riverside Olympic",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000302/matches/img-launcestoncityvsriversideolympic2409543.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-14724c633c3e",
+                            "name": "Launceston City - Riverside Olympic",
+                            "contents": [
+                                {
+                                    "id": "ct-298d3b2c6551",
+                                    "name": "Australia Tasmania National Premier League",
+                                    "streams": [
+                                        {
+                                            "id": "st-8802db30e17b",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-49d89dee8ee3",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/ef365c16437724117a777c8873074f18/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/launceston-city-vs-riverside-olympic-2409543"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-viktoriaplzenu19vssigmaolomoucu192409545",
+                    "name": "Viktoria Plzen U19 vs Sigma Olomouc U19",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000302/matches/img-viktoriaplzenu19vssigmaolomoucu192409545.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-4ebc860dc372",
+                            "name": "Viktoria Plzen U19 - Sigma Olomouc U19",
+                            "contents": [
+                                {
+                                    "id": "ct-8bfebb69acf1",
+                                    "name": "Czech U19 League",
+                                    "streams": [
+                                        {
+                                            "id": "st-a24056a10b96",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-23aee72bb019",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/4df4f544d60b0afb95b68554128fa497/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/viktoria-plzen-u19-vs-sigma-olomouc-u19-2409545"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-easternsuburbsbrisbanevsgoldcoastknights2409547",
+                    "name": "Eastern Suburbs Brisbane vs Gold Coast Knights",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000303/matches/img-easternsuburbsbrisbanevsgoldcoastknights2409547.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-612c491465d9",
+                            "name": "Eastern Suburbs Brisbane - Gold Coast Knights",
+                            "contents": [
+                                {
+                                    "id": "ct-55e790418dc4",
+                                    "name": "Australia National Premier Leagues Queensland",
+                                    "streams": [
+                                        {
+                                            "id": "st-d45e44a4b466",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-07ac705f5b6f",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/41b0aff829c9a198795070c310dd947a/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/eastern-suburbs-brisbane-vs-gold-coast-knights-2409547"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-westtorrensbirkallavswhitecitywoodville2409549",
+                    "name": "West Torrens Birkalla vs White City Woodville",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000304/matches/img-westtorrensbirkallavswhitecitywoodville2409549.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-870293918db2",
+                            "name": "West Torrens Birkalla - White City Woodville",
+                            "contents": [
+                                {
+                                    "id": "ct-6e7a91647043",
+                                    "name": "South Australia National Premier Leagues",
+                                    "streams": [
+                                        {
+                                            "id": "st-a4c30b48aa3f",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-1e1dc609bf47",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/c315e2c710c9feb3800be939d7a4c1dd/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/west-torrens-birkalla-vs-white-city-woodville-2409549"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-peninsulapowervsgoldcoastunited2409550",
+                    "name": "Peninsula Power vs Gold Coast United",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000304/matches/img-peninsulapowervsgoldcoastunited2409550.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-1bb368a8188b",
+                            "name": "Peninsula Power - Gold Coast United",
+                            "contents": [
+                                {
+                                    "id": "ct-d92e2fd3b88e",
+                                    "name": "Australia National Premier Leagues Queensland",
+                                    "streams": [
+                                        {
+                                            "id": "st-4d68f86af598",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-6c2630bc200c",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/0c1813058c8c0d43cde0d642e50c0d5a/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/peninsula-power-vs-gold-coast-united-2409550"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-prestonlionsvsavondalefc2409551",
+                    "name": "Preston Lions vs Avondale FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774000304/matches/img-prestonlionsvsavondalefc2409551.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-a0a3534d10f4",
+                            "name": "Preston Lions - Avondale FC",
+                            "contents": [
+                                {
+                                    "id": "ct-570baedf9616",
+                                    "name": "National Premier Leagues Victoria",
+                                    "streams": [
+                                        {
+                                            "id": "st-671653baa25b",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-f76ed0350046",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/028c8695e643b0a6077a10ee80a1af24/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/preston-lions-vs-avondale-fc-2409551"
                                                         },
                                                         {
                                                             "key": "User-Agent",
