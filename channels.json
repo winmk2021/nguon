@@ -26,8 +26,8 @@
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
+                            "text": "● Fulltime",
+                            "color": "#9E9E9E",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
@@ -42,19 +42,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-a46c434724cd",
+                            "id": "src-a3551f1bb38f",
                             "name": "China U23 - Thailand U23",
                             "contents": [
                                 {
-                                    "id": "ct-bff353f9e460",
+                                    "id": "ct-1a925b94f1d5",
                                     "name": "Luồng Chuyên Môn",
                                     "streams": [
                                         {
-                                            "id": "st-907414b69a67",
+                                            "id": "st-b871cd3fa604",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-4a2755fc4790",
+                                                    "id": "lnk-5bddeb134cfc",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -71,7 +71,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fa03eee8e644",
+                                                    "id": "lnk-654e4303827b",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -88,7 +88,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1537c04fe738",
+                                                    "id": "lnk-ef1bdc7e232a",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -105,7 +105,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2be5613fb90d",
+                                                    "id": "lnk-071df3b27f9a",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -122,7 +122,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-abcaf608abba",
+                                                    "id": "lnk-ca92a31d0b73",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -152,8 +152,8 @@
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
+                            "text": "● Live",
+                            "color": "#FF0000",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
@@ -168,15 +168,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-4520a2868150",
+                            "id": "src-14d9a9837b30",
                             "name": "Finland U19 - Netherlands U19",
                             "contents": [
                                 {
-                                    "id": "ct-54291f5fe3f0",
+                                    "id": "ct-f3b51d27ca24",
                                     "name": "UEFA European U19 Football Championship",
                                     "streams": [
                                         {
-                                            "id": "st-08a4b0bdbe6a",
+                                            "id": "st-b5155bda9054",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -192,8 +192,8 @@
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
+                            "text": "● Live",
+                            "color": "#FF0000",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
@@ -208,19 +208,36 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-54939b0ae489",
+                            "id": "src-fa314e7fdf47",
                             "name": "Italy U17 - Portugal U17",
                             "contents": [
                                 {
-                                    "id": "ct-1996e9b5d059",
+                                    "id": "ct-ec7a2dbacd03",
                                     "name": "UEFA European U17 Football Championship",
                                     "streams": [
                                         {
-                                            "id": "st-74eb26b27bed",
+                                            "id": "st-c42b145fe52c",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-de1d1d9b6632",
+                                                    "id": "lnk-2fc3881f6f12",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/d91d58ea477655174215c175a0e4460f/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/italy-u17-vs-portugal-u17-2413464"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-bc46faa567d7",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -237,7 +254,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a604d5dca1b3",
+                                                    "id": "lnk-8cffa9a7ae38",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -254,7 +271,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-788f627e2256",
+                                                    "id": "lnk-c5046fc8de43",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -271,7 +288,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-92cb9e4388f7",
+                                                    "id": "lnk-c0af17a6afb2",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -288,7 +305,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8a4873ecf701",
+                                                    "id": "lnk-d60795026f7f",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -334,15 +351,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-279f9582adf2",
+                            "id": "src-7501c9302895",
                             "name": "Poland U19 - Portugal U19",
                             "contents": [
                                 {
-                                    "id": "ct-a6ea932b5841",
+                                    "id": "ct-0fe04bd6b9a2",
                                     "name": "UEFA European U19 Football Championship",
                                     "streams": [
                                         {
-                                            "id": "st-4cc2fb82eeea",
+                                            "id": "st-431fa9bbca83",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -374,19 +391,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-a85d9b2fd8e2",
+                            "id": "src-0a2f99590de3",
                             "name": "Real Madrid Women - Barcelona Women",
                             "contents": [
                                 {
-                                    "id": "ct-892b62f5ea2d",
+                                    "id": "ct-3c676c5ec675",
                                     "name": "UEFA Women's Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-dca955f86045",
+                                            "id": "st-fed9c741ecf1",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-723dd8ba948c",
+                                                    "id": "lnk-2bf092d3e36b",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -403,7 +420,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-901faa789960",
+                                                    "id": "lnk-a55bc779255f",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -420,7 +437,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6bb480b6371c",
+                                                    "id": "lnk-88b1b3d36b98",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -437,7 +454,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-86e4d0c6d9b8",
+                                                    "id": "lnk-8809a325326b",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -454,7 +471,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b88889b7ebac",
+                                                    "id": "lnk-6e0cafcac150",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -471,46 +488,6 @@
                                                     ]
                                                 }
                                             ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-usmalgervsjskabylie2413460",
-                    "name": "USM Alger vs JS kabylie",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429144/matches/img-usmalgervsjskabylie2413460.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-cbca0f616a4c",
-                            "name": "USM Alger - JS kabylie",
-                            "contents": [
-                                {
-                                    "id": "ct-08c67a455153",
-                                    "name": "Algerian Ligue Professionnelle 1",
-                                    "streams": [
-                                        {
-                                            "id": "st-52646fb151e4",
-                                            "name": "Stream",
-                                            "stream_links": []
                                         }
                                     ]
                                 }
@@ -540,17 +517,183 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-9d959d59b78f",
+                            "id": "src-bb600cfa6930",
                             "name": "Enppi - Petrojet",
                             "contents": [
                                 {
-                                    "id": "ct-a77ef0fae389",
+                                    "id": "ct-1269cefc1c83",
                                     "name": "Egypt League Cup",
                                     "streams": [
                                         {
-                                            "id": "st-8e5d4150f331",
+                                            "id": "st-f0e4465ac1a3",
                                             "name": "Stream",
                                             "stream_links": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-usmalgervsjskabylie2413460",
+                    "name": "USM Alger vs JS kabylie",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429144/matches/img-usmalgervsjskabylie2413460.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-e22ddc58dc74",
+                            "name": "USM Alger - JS kabylie",
+                            "contents": [
+                                {
+                                    "id": "ct-03b12c99b5c7",
+                                    "name": "Algerian Ligue Professionnelle 1",
+                                    "streams": [
+                                        {
+                                            "id": "st-eb8873bcd5ed",
+                                            "name": "Stream",
+                                            "stream_links": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-sportingcanamyvscalordesanpedro2413925",
+                    "name": "Sporting Canamy vs Calor de San Pedro",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429144/matches/img-sportingcanamyvscalordesanpedro2413925.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-ed5ba35fba52",
+                            "name": "Sporting Canamy - Calor de San Pedro",
+                            "contents": [
+                                {
+                                    "id": "ct-cd0d78d4ab4b",
+                                    "name": "MEX Liga Premier Serie",
+                                    "streams": [
+                                        {
+                                            "id": "st-a6f6bf4fa4a2",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-6de7b190189c",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-de64b19c56ef",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-5872b922ad07",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-899aea870853",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-2597d13c5d8c",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -580,19 +723,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-233475a41c0e",
+                            "id": "src-3e1cf44b9d85",
                             "name": "Manchester United Women - Bayern Munchen Women",
                             "contents": [
                                 {
-                                    "id": "ct-89b328ab2ae1",
+                                    "id": "ct-5084c9bbd970",
                                     "name": "UEFA Women's Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-eef22e9a65a7",
+                                            "id": "st-8439b7b6dcd8",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-59dbaae435c9",
+                                                    "id": "lnk-370f5332cb26",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -609,7 +752,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8e2a977d61eb",
+                                                    "id": "lnk-7d227ddf403f",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -626,7 +769,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-35b7f2103619",
+                                                    "id": "lnk-967ea6747fde",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -643,7 +786,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7bb2cc73e6fa",
+                                                    "id": "lnk-0e4257472c2c",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -660,7 +803,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fa9d9f280284",
+                                                    "id": "lnk-3743093b9ab1",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -706,19 +849,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e0bf27ff2453",
+                            "id": "src-5d80b1923702",
                             "name": "Vitoria BA - Botafogo PB",
                             "contents": [
                                 {
-                                    "id": "ct-53c745771d9b",
+                                    "id": "ct-7e5680de6dcb",
                                     "name": "Brazilian Copa do Nordeste",
                                     "streams": [
                                         {
-                                            "id": "st-283e9c9b3313",
+                                            "id": "st-8090f02f7418",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-66560af2a721",
+                                                    "id": "lnk-c3feea32b3e7",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -735,7 +878,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5911ffeab5b4",
+                                                    "id": "lnk-94d50cfce831",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -752,7 +895,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-486593436552",
+                                                    "id": "lnk-e43f91b7c25a",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -769,7 +912,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-be722654508a",
+                                                    "id": "lnk-02815aea5184",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -786,7 +929,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-219407ad82c3",
+                                                    "id": "lnk-d57d7c18ca3e",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -811,8 +954,8 @@
                     ]
                 },
                 {
-                    "id": "ch-sportingcanamyvscalordesanpedro2413925",
-                    "name": "Sporting Canamy vs Calor de San Pedro",
+                    "id": "ch-arubavsmacauofchina2413758",
+                    "name": "Aruba vs Macau of China",
                     "labels": [
                         {
                             "position": "top-left",
@@ -823,7 +966,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429144/matches/img-sportingcanamyvscalordesanpedro2413925.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429147/matches/img-arubavsmacauofchina2413758.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -832,27 +975,67 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-fe931656d74e",
-                            "name": "Sporting Canamy - Calor de San Pedro",
+                            "id": "src-e8e4166610fb",
+                            "name": "Aruba - Macau of China",
                             "contents": [
                                 {
-                                    "id": "ct-db96d0478f92",
-                                    "name": "MEX Liga Premier Serie",
+                                    "id": "ct-bc223f9352fc",
+                                    "name": "FIFA Series",
                                     "streams": [
                                         {
-                                            "id": "st-a4bb76eda7cb",
+                                            "id": "st-46e4a5b87869",
+                                            "name": "Stream",
+                                            "stream_links": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-afghanistanvsmyanmar2413755",
+                    "name": "Afghanistan vs Myanmar",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429146/matches/img-afghanistanvsmyanmar2413755.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-c0692b1a87d3",
+                            "name": "Afghanistan - Myanmar",
+                            "contents": [
+                                {
+                                    "id": "ct-487388db14fe",
+                                    "name": "AFC Asian Cup",
+                                    "streams": [
+                                        {
+                                            "id": "st-714e64a52795",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-565bd3251c28",
+                                                    "id": "lnk-750c38e5ae38",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -861,15 +1044,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f1c98b5066cf",
+                                                    "id": "lnk-b98a314c402c",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -878,15 +1061,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fccf764ba871",
+                                                    "id": "lnk-50a29a8d7535",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-11/index.m3u8",
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -895,15 +1078,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0fac6be3b9d3",
+                                                    "id": "lnk-f97845399848",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-09.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -912,15 +1095,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-90b3574ede13",
+                                                    "id": "lnk-a52e9fafda0e",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-11.flv",
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-09.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sporting-canamy-vs-calor-de-san-pedro-2413925"
+                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -958,183 +1141,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e6a8d7c2a0e2",
+                            "id": "src-ee55351be3b5",
                             "name": "Banfield - Real Pilar",
                             "contents": [
                                 {
-                                    "id": "ct-90b4b831c1f4",
+                                    "id": "ct-e08642084203",
                                     "name": "Copa Argentina",
                                     "streams": [
                                         {
-                                            "id": "st-00d5ab989249",
+                                            "id": "st-936e2c84c1fc",
                                             "name": "Stream",
                                             "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-arubavsmacauofchina2413758",
-                    "name": "Aruba vs Macau of China",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429147/matches/img-arubavsmacauofchina2413758.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-83491980654e",
-                            "name": "Aruba - Macau of China",
-                            "contents": [
-                                {
-                                    "id": "ct-7509d502dcb6",
-                                    "name": "FIFA Series",
-                                    "streams": [
-                                        {
-                                            "id": "st-c5dcc32c67e1",
-                                            "name": "Stream",
-                                            "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-afghanistanvsmyanmar2413755",
-                    "name": "Afghanistan vs Myanmar",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774429146/matches/img-afghanistanvsmyanmar2413755.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-c9c954813da4",
-                            "name": "Afghanistan - Myanmar",
-                            "contents": [
-                                {
-                                    "id": "ct-08e19808e21e",
-                                    "name": "AFC Asian Cup",
-                                    "streams": [
-                                        {
-                                            "id": "st-331452e89aeb",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-45072ec3497c",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-1427ce51a236",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-df200f5863b0",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-09/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-286069c5661e",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-09.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-9c1d4a8b6dfd",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-09.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/afghanistan-vs-myanmar-2413755"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
                                         }
                                     ]
                                 }
@@ -1164,19 +1181,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-71de138b9e66",
+                            "id": "src-128e8d0dc7ee",
                             "name": "Vietnam - Bangladesh",
                             "contents": [
                                 {
-                                    "id": "ct-adc9c54e336a",
+                                    "id": "ct-319a6ada6c58",
                                     "name": "Luồng Cảm Xúc",
                                     "streams": [
                                         {
-                                            "id": "st-a8e91c8bac53",
+                                            "id": "st-1d07c384e060",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-03280afc65ce",
+                                                    "id": "lnk-edc71be5f3ed",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1193,7 +1210,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-befea4e36d42",
+                                                    "id": "lnk-7b2d33d5af17",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1210,7 +1227,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-efd36f0b9686",
+                                                    "id": "lnk-8c4f188716ed",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1227,7 +1244,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-23e94ac98be6",
+                                                    "id": "lnk-6d19b864cab0",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1244,7 +1261,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-095c062ec50d",
+                                                    "id": "lnk-a2ecacb5bbc1",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1290,19 +1307,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-06302abe4cab",
+                            "id": "src-b95f9a10f575",
                             "name": "Vietnam - Bangladesh",
                             "contents": [
                                 {
-                                    "id": "ct-617f761a0cfd",
+                                    "id": "ct-1ae48216e631",
                                     "name": "Luồng Chuyên Môn",
                                     "streams": [
                                         {
-                                            "id": "st-8d42f0075f39",
+                                            "id": "st-32f04bb41573",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-cd1379d46161",
+                                                    "id": "lnk-1253c63dfb0e",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1319,7 +1336,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5155558077cb",
+                                                    "id": "lnk-f398a60c131a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1336,7 +1353,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-72ec5d510c82",
+                                                    "id": "lnk-9257aa6ae494",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1353,7 +1370,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a3783fdee364",
+                                                    "id": "lnk-b4cb714c09a5",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1370,7 +1387,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d2f6c970fe0d",
+                                                    "id": "lnk-47be8e849132",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1416,15 +1433,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-ad766290df97",
+                            "id": "src-83766d4776de",
                             "name": "Al Quwa Al Jawiya - Al Karkh",
                             "contents": [
                                 {
-                                    "id": "ct-abb13e0b2519",
+                                    "id": "ct-e73bfa7eb794",
                                     "name": "Iraq Stars League",
                                     "streams": [
                                         {
-                                            "id": "st-d49efe65fc9e",
+                                            "id": "st-0edbba64c9d7",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -1456,19 +1473,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e3fdcea83255",
+                            "id": "src-d8beb9250dbf",
                             "name": "Djibouti - South Sudan",
                             "contents": [
                                 {
-                                    "id": "ct-ae0c4516c661",
+                                    "id": "ct-fcdf0cd0bb7c",
                                     "name": "CAF Africa Cup of Nations",
                                     "streams": [
                                         {
-                                            "id": "st-56902a3fc99b",
+                                            "id": "st-cce781e2f515",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-42f4085f03ec",
+                                                    "id": "lnk-ca85edd9384f",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1485,7 +1502,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8219c4633052",
+                                                    "id": "lnk-3743e8e8dedc",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1502,7 +1519,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9d4f3e2fb24f",
+                                                    "id": "lnk-b97cc2f92694",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1519,7 +1536,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6d22eb62ea60",
+                                                    "id": "lnk-c175884a83a7",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1536,7 +1553,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e5a07259d617",
+                                                    "id": "lnk-e5e0ac66486f",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1582,19 +1599,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-5068150ecba6",
+                            "id": "src-da2742bc0f12",
                             "name": "Famalicao U23 - Sporting CP U23",
                             "contents": [
                                 {
-                                    "id": "ct-ac883cfec1a0",
+                                    "id": "ct-c8aa0e3523f0",
                                     "name": "Portuguese U23 League",
                                     "streams": [
                                         {
-                                            "id": "st-1d3478375927",
+                                            "id": "st-480f7e88574c",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-8e6e0b2f06db",
+                                                    "id": "lnk-deadeb57c943",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1611,7 +1628,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a2238f1955e7",
+                                                    "id": "lnk-fbebe53e266a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1628,7 +1645,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e4facc0de209",
+                                                    "id": "lnk-32e56a1465ed",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1645,7 +1662,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8b1ab40b1ec0",
+                                                    "id": "lnk-d7c9520d3675",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1662,7 +1679,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-69e9dcbd2433",
+                                                    "id": "lnk-1cbe28c19218",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1708,19 +1725,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-f95494dafde7",
+                            "id": "src-eb0d6e97abc1",
                             "name": "Iceland U21 - Estonia U21",
                             "contents": [
                                 {
-                                    "id": "ct-72ac84420d62",
+                                    "id": "ct-eee45d2447c7",
                                     "name": "UEFA European U21 Championship qualification",
                                     "streams": [
                                         {
-                                            "id": "st-e0eec85aacba",
+                                            "id": "st-f3717f81cc83",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-5fe52de1cd3c",
+                                                    "id": "lnk-aea7854d388f",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1737,7 +1754,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9efce0a28306",
+                                                    "id": "lnk-5cc98c381b1a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1754,7 +1771,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-aa03611d8f33",
+                                                    "id": "lnk-401a464f715e",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1771,7 +1788,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-96d82bd4cfd5",
+                                                    "id": "lnk-e3b96f13ab57",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1788,7 +1805,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e17691216ae9",
+                                                    "id": "lnk-c6f49df97200",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1834,19 +1851,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-965905ab866f",
+                            "id": "src-4c50197bb6db",
                             "name": "Hajer - Al Liwaa",
                             "contents": [
                                 {
-                                    "id": "ct-177dc2b98852",
+                                    "id": "ct-30f82bf71424",
                                     "name": "Saudi Arabia Division 2",
                                     "streams": [
                                         {
-                                            "id": "st-9825c8fc0da8",
+                                            "id": "st-e3951ff425a0",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-e5eba36d11e8",
+                                                    "id": "lnk-f36c3c2a4111",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1863,7 +1880,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9d3e19fa8707",
+                                                    "id": "lnk-1fb03b7ebb30",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1880,7 +1897,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b392398014d2",
+                                                    "id": "lnk-aff31a025e66",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1897,7 +1914,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2c55bb237810",
+                                                    "id": "lnk-e644edc76677",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1914,7 +1931,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d190428bf4dc",
+                                                    "id": "lnk-bcb0f04905f8",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1923,6 +1940,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.net/hajer-vs-al-liwaa-2414313"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-partickthistlefcvsrosscounty2414807",
+                    "name": "Partick Thistle FC vs Ross County",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774342796/matches/img-partickthistlefcvsrosscounty2414807.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-13caebdb86ae",
+                            "name": "Partick Thistle FC - Ross County",
+                            "contents": [
+                                {
+                                    "id": "ct-9a2e0234acf9",
+                                    "name": "Scottish Championship",
+                                    "streams": [
+                                        {
+                                            "id": "st-6f4d27dca69b",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-3a4032c8162c",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-ebca059d4dc1",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-335ca782484c",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-bf0d7755f5da",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-f7ff5410a863",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1960,269 +2103,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-bf9e53ad48ba",
+                            "id": "src-6fe19c3db1d7",
                             "name": "Atlas Women - Club Necaxa Women",
                             "contents": [
                                 {
-                                    "id": "ct-3c6e53e650c0",
+                                    "id": "ct-4439a8b96b53",
                                     "name": "Mexico Liga MX Femenil",
                                     "streams": [
                                         {
-                                            "id": "st-0e28806d61a3",
+                                            "id": "st-e5e9b568432b",
                                             "name": "Stream",
                                             "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-partickthistlefcvsrosscounty2414807",
-                    "name": "Partick Thistle FC vs Ross County",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774342796/matches/img-partickthistlefcvsrosscounty2414807.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-5ad326e0cd83",
-                            "name": "Partick Thistle FC - Ross County",
-                            "contents": [
-                                {
-                                    "id": "ct-cdd643f79be4",
-                                    "name": "Scottish Championship",
-                                    "streams": [
-                                        {
-                                            "id": "st-21fd81d3ffbd",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-52fe31c6767c",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-19d3a94b7228",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-84fd9ea02656",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-53a2d6e3393a",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-43b9c0c36afe",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/partick-thistle-fc-vs-ross-county-2414807"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-raithroversvsayrunited2414809",
-                    "name": "Raith Rovers vs Ayr United",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774342796/matches/img-raithroversvsayrunited2414809.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-6dcf1c8dd441",
-                            "name": "Raith Rovers - Ayr United",
-                            "contents": [
-                                {
-                                    "id": "ct-1711b6c47959",
-                                    "name": "Scottish Championship",
-                                    "streams": [
-                                        {
-                                            "id": "st-7f096df9c9cc",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-1752618fff90",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-1aa9c59be281",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-a3a50e4e4356",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-681d292d0ee0",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-90616a309067",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
                                         }
                                     ]
                                 }
@@ -2252,15 +2143,15 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-4e3356aef07d",
+                            "id": "src-b83cfa3cc75b",
                             "name": "Kazakhstan - Comoros",
                             "contents": [
                                 {
-                                    "id": "ct-6a347885a2e6",
+                                    "id": "ct-4515d70a54ad",
                                     "name": "FIFA Series",
                                     "streams": [
                                         {
-                                            "id": "st-0081259b4740",
+                                            "id": "st-7ba470bf7828",
                                             "name": "Stream",
                                             "stream_links": []
                                         }
@@ -2271,19 +2162,19 @@
                     ]
                 },
                 {
-                    "id": "ch-alminaascvsduhoksc2414186",
-                    "name": "Al-Mina'a SC vs Duhok SC",
+                    "id": "ch-raithroversvsayrunited2414809",
+                    "name": "Raith Rovers vs Ayr United",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774445098/matches/img-alminaascvsduhoksc2414186.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774342796/matches/img-raithroversvsayrunited2414809.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2292,27 +2183,95 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-5d5c2ad7a736",
-                            "name": "Al-Mina'a SC - Duhok SC",
+                            "id": "src-aba216ea32fc",
+                            "name": "Raith Rovers - Ayr United",
                             "contents": [
                                 {
-                                    "id": "ct-f5852f4dec9e",
-                                    "name": "Iraq Stars League",
+                                    "id": "ct-3618355ea87d",
+                                    "name": "Scottish Championship",
                                     "streams": [
                                         {
-                                            "id": "st-5cfddbddffda",
+                                            "id": "st-c8dfd6ac6fd9",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-e22ebe8b1b3e",
-                                                    "name": "Nhà đài",
+                                                    "id": "lnk-d8a9773bf573",
+                                                    "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live.alilicloud.com/live/2b066a0999d962fc823ed8ce8f4ae53e/playlist.m3u8",
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/al-minaa-sc-vs-duhok-sc-2414186"
+                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-8a56475d5e20",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-67883ccd56c6",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://hls.cauthuvideocdn.com/live/link-07/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-ce35a42eedba",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-3f6590ca1156",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://flv.cauthuvideocdn.com/live/link-07.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.net/raith-rovers-vs-ayr-united-2414809"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2329,8 +2288,8 @@
                     ]
                 },
                 {
-                    "id": "ch-alnaftscvsalqasimsc2414469",
-                    "name": "Al-Naft SC vs Al Qasim SC",
+                    "id": "ch-norwayu19vsfranceu192413465",
+                    "name": "Norway U19 vs France U19",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2341,7 +2300,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774445099/matches/img-alnaftscvsalqasimsc2414469.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774451233/matches/img-norwayu19vsfranceu192413465.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2350,259 +2309,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-cc7a5fd66d23",
-                            "name": "Al-Naft SC - Al Qasim SC",
+                            "id": "src-62c52b366027",
+                            "name": "Norway U19 - France U19",
                             "contents": [
                                 {
-                                    "id": "ct-4f8914850bd2",
-                                    "name": "Iraq Stars League",
-                                    "streams": [
-                                        {
-                                            "id": "st-9b9da42dfbbf",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-debf7ae0faa5",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/e643f58f4dbd076428ddb93160bda626/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/al-naft-sc-vs-al-qasim-sc-2414469"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-sreenidideccanvsdempo2413444",
-                    "name": "Sreenidi Deccan vs Dempo",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774445099/matches/img-sreenidideccanvsdempo2413444.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-a489f42c6203",
-                            "name": "Sreenidi Deccan - Dempo",
-                            "contents": [
-                                {
-                                    "id": "ct-ead408ab5442",
-                                    "name": "Indian League Division 1",
-                                    "streams": [
-                                        {
-                                            "id": "st-b70a3e87b591",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-373e9d55b118",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/73a6f8758e6afe36ff1c1f756788c2fd/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/sreenidi-deccan-vs-dempo-2413444"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-czechiarepublicu19vslatviau192413446",
-                    "name": "Czechia Republic U19 vs Latvia U19",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774445100/matches/img-czechiarepublicu19vslatviau192413446.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-76aace00b56f",
-                            "name": "Czechia Republic U19 - Latvia U19",
-                            "contents": [
-                                {
-                                    "id": "ct-8967bd6a0c83",
+                                    "id": "ct-3064b08a8e15",
                                     "name": "UEFA European U19 Football Championship",
                                     "streams": [
                                         {
-                                            "id": "st-eca0b453cf94",
+                                            "id": "st-86c2c7b717fb",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-ae6af3ae7b22",
+                                                    "id": "lnk-52253bd0ba48",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live.alilicloud.com/live/f95de78930c5b454010e3f446bd9ca4a/playlist.m3u8",
+                                                    "url": "https://live.alilicloud.com/live/83d1375fd3e93f774a84b84a97889e06/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.net/czechia-republic-u19-vs-latvia-u19-2413446"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-hungaryu17vsmoldovau172416557",
-                    "name": "Hungary U17 vs Moldova U17",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774445101/matches/img-hungaryu17vsmoldovau172416557.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-3b9e3e520eab",
-                            "name": "Hungary U17 - Moldova U17",
-                            "contents": [
-                                {
-                                    "id": "ct-3acc4d9cbe5d",
-                                    "name": "International Friendly",
-                                    "streams": [
-                                        {
-                                            "id": "st-7488710b359a",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-221cddc18a81",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/abf4b379f3b0527acb386a48d3d25b77/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/hungary-u17-vs-moldova-u17-2416557"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-shashemeneketemavsnekemteketema2417334",
-                    "name": "Shashemene Ketema vs Nekemte Ketema",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1774445102/matches/img-shashemeneketemavsnekemteketema2417334.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-0ee5450b7630",
-                            "name": "Shashemene Ketema - Nekemte Ketema",
-                            "contents": [
-                                {
-                                    "id": "ct-3c8c41000f91",
-                                    "name": "Ethiopian Higher League",
-                                    "streams": [
-                                        {
-                                            "id": "st-8ae9daa3353c",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-b20c79e7f725",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/ae85a406e4eaf87b43e231d2390bd5e2/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.net/shashemene-ketema-vs-nekemte-ketema-2417334"
+                                                            "value": "https://hoadaotv.net/norway-u19-vs-france-u19-2413465"
                                                         },
                                                         {
                                                             "key": "User-Agent",
