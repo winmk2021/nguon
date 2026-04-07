@@ -21,13 +21,139 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-bandirmasporvssariyer2422637",
-                    "name": "Bandirmaspor vs Sariyer",
+                    "id": "ch-krylyasovetovvscskamoscow2422683",
+                    "name": "Krylya Sovetov vs CSKA Moscow",
                     "labels": [
                         {
                             "position": "top-left",
                             "text": "● Upcoming",
                             "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775321058/matches/img-krylyasovetovvscskamoscow2422683.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-f1a949796bab",
+                            "name": "Krylya Sovetov - CSKA Moscow",
+                            "contents": [
+                                {
+                                    "id": "ct-354e8bbe1fc7",
+                                    "name": "Russian Cup",
+                                    "streams": [
+                                        {
+                                            "id": "st-b33c1cecef2c",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-3673a5707256",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-9f5645f4e930",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-035daff6f154",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-5459652485f3",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-133c660b85a8",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-bandirmasporvssariyer2422637",
+                    "name": "Bandirmaspor vs Sariyer",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
@@ -42,19 +168,36 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-0519f2d66694",
+                            "id": "src-5e2324ab001d",
                             "name": "Bandirmaspor - Sariyer",
                             "contents": [
                                 {
-                                    "id": "ct-58888b62ac49",
+                                    "id": "ct-4505bddcc7ca",
                                     "name": "Turkish First League",
                                     "streams": [
                                         {
-                                            "id": "st-5be1b099e42b",
+                                            "id": "st-4179b05aaa36",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-d0abe8abb595",
+                                                    "id": "lnk-bdc58f097ec6",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/d93595f9ef5adf9ba717549458576f14/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/bandirmaspor-vs-sariyer-2422637"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-890f4e87e788",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -71,7 +214,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1ceeea4938f0",
+                                                    "id": "lnk-74cb9bc6a93c",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -88,7 +231,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-05978786967c",
+                                                    "id": "lnk-2dffdb97c168",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -105,7 +248,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6334911562ba",
+                                                    "id": "lnk-eae74df2dac5",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -122,7 +265,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4c24b306df66",
+                                                    "id": "lnk-cb20714c5c0c",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -147,8 +290,8 @@
                     ]
                 },
                 {
-                    "id": "ch-krylyasovetovvscskamoscow2422683",
-                    "name": "Krylya Sovetov vs CSKA Moscow",
+                    "id": "ch-sportingcpvsarsenal2422973",
+                    "name": "Sporting CP vs Arsenal",
                     "labels": [
                         {
                             "position": "top-left",
@@ -159,7 +302,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775321058/matches/img-krylyasovetovvscskamoscow2422683.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775400044/matches/img-sportingcpvsarsenal2422973.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -168,27 +311,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-fd88b5a223ba",
-                            "name": "Krylya Sovetov - CSKA Moscow",
+                            "id": "src-adb4af29c077",
+                            "name": "Sporting CP - Arsenal",
                             "contents": [
                                 {
-                                    "id": "ct-7cd51f22833e",
-                                    "name": "Russian Cup",
+                                    "id": "ct-223ed8f6255a",
+                                    "name": "UEFA Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-e8b272e85284",
+                                            "id": "st-a8ece5f95829",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-fee907cd9fa7",
+                                                    "id": "lnk-202afbc3dbae",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map/playlist.m3u8",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -197,15 +340,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ab00737e9cff",
+                                                    "id": "lnk-01f9274130a8",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map/playlist.m3u8",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -214,15 +357,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-39d4113ac0d3",
+                                                    "id": "lnk-c5c44787b779",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map/playlist.m3u8",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -231,15 +374,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-08b5a5a026da",
+                                                    "id": "lnk-11ea4864d838",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map.flv",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -248,15 +391,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-366f62bb0bc2",
+                                                    "id": "lnk-680b23445d23",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-a-map.flv",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/krylya-sovetov-vs-cska-moscow-2422683"
+                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -294,19 +437,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-76a72e011664",
+                            "id": "src-fb981272afdd",
                             "name": "NK Istra 1961 - Hajduk Split",
                             "contents": [
                                 {
-                                    "id": "ct-ff33d82c1011",
+                                    "id": "ct-8048ff37f1c8",
                                     "name": "Croatian Football League",
                                     "streams": [
                                         {
-                                            "id": "st-5e16f3ccc76f",
+                                            "id": "st-c34a552423a9",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-f3af4280c6c0",
+                                                    "id": "lnk-cb4955a40c57",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -323,7 +466,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c8d32bd838f8",
+                                                    "id": "lnk-ac0bf9852738",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -340,7 +483,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4ba874f48dbb",
+                                                    "id": "lnk-7d0f40ee16f3",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -357,7 +500,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-574265ba0dbe",
+                                                    "id": "lnk-cb5e0c2cb428",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -374,7 +517,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0e222fdfd494",
+                                                    "id": "lnk-0e22da2ab3a6",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -420,19 +563,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-cc6d7a2c1c6f",
+                            "id": "src-5c04b24883ff",
                             "name": "Sporting CP - Sporting CP",
                             "contents": [
                                 {
-                                    "id": "ct-6a89e41046af",
+                                    "id": "ct-607966b4cbfa",
                                     "name": "UEFA Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-33f967b82da5",
+                                            "id": "st-e31e164335d6",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-22302640c3a7",
+                                                    "id": "lnk-522c480ab564",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -449,7 +592,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-63c41fe75afc",
+                                                    "id": "lnk-5727fb1a12dd",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -466,7 +609,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9dd591df4c94",
+                                                    "id": "lnk-f448f5d084f7",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -483,7 +626,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8650057ef030",
+                                                    "id": "lnk-fe51aa9b1400",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -500,7 +643,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-da1e5d6c35ee",
+                                                    "id": "lnk-2b3c0e3d6c6b",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -509,132 +652,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-chimnho-2426948"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-sportingcpvsarsenal2422973",
-                    "name": "Sporting CP vs Arsenal",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775400044/matches/img-sportingcpvsarsenal2422973.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-6724a66643d7",
-                            "name": "Sporting CP - Arsenal",
-                            "contents": [
-                                {
-                                    "id": "ct-6fbdf012520d",
-                                    "name": "UEFA Champions League",
-                                    "streams": [
-                                        {
-                                            "id": "st-788c411f30a8",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-721a60f75002",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5b2e9cf620ed",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8fe75d1c8fe0",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6926cbd0b659",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-7ab357a69633",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/sporting-cp-vs-arsenal-2422973"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -672,19 +689,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-345b6c07d077",
+                            "id": "src-58a1fe358cb0",
                             "name": "Real Madrid - FC Bayern Munich",
                             "contents": [
                                 {
-                                    "id": "ct-a3e0761bb8e9",
+                                    "id": "ct-7ba7a929fbfb",
                                     "name": "UEFA Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-d5879f5dcf92",
+                                            "id": "st-60e15bf8fd31",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-6d5799b744d2",
+                                                    "id": "lnk-84bf3676e976",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -701,7 +718,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-095717b3c914",
+                                                    "id": "lnk-ae148ae72bcc",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -718,7 +735,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fc34b9356483",
+                                                    "id": "lnk-29174adc814e",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -735,7 +752,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-878109f08974",
+                                                    "id": "lnk-768e264fbe9a",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -752,7 +769,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8ae4bbc805ae",
+                                                    "id": "lnk-f7ea3fb7fe52",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -761,132 +778,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/real-madrid-vs-fc-bayern-munich-2422978"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-gambaosakavsbangkokunitedfc2423035",
-                    "name": "Gamba Osaka vs Bangkok United FC",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775400045/matches/img-gambaosakavsbangkokunitedfc2423035.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-4f1eb0a17476",
-                            "name": "Gamba Osaka - Bangkok United FC",
-                            "contents": [
-                                {
-                                    "id": "ct-4e3bbe33495a",
-                                    "name": "AFC Champions League 2",
-                                    "streams": [
-                                        {
-                                            "id": "st-0aa339ebf4bc",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-8b72655c2a4b",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8610b2a25d7a",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-d78e09614d52",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-37e93e6bcb42",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-bdeb26fef979",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -924,19 +815,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b83c79db9c27",
+                            "id": "src-821a23de42d2",
                             "name": "Braga - Real Betis",
                             "contents": [
                                 {
-                                    "id": "ct-d9e2ef47c059",
+                                    "id": "ct-cf78f029296e",
                                     "name": "Luồng Hài Hước",
                                     "streams": [
                                         {
-                                            "id": "st-ee71db739cba",
+                                            "id": "st-c26b536ead07",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-460bc9c45250",
+                                                    "id": "lnk-5da14d4a0cd4",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -953,7 +844,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f418fada1da7",
+                                                    "id": "lnk-9ec6f00f8cc9",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -970,7 +861,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-53edf98db8d7",
+                                                    "id": "lnk-51c95ff0090f",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -987,7 +878,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b9b6a275b71a",
+                                                    "id": "lnk-92c5bb556e00",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1004,7 +895,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2ff60bb10824",
+                                                    "id": "lnk-27a1f7c6a631",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1013,6 +904,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/braga-vs-real-betis-thayma-2426991"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-gambaosakavsbangkokunitedfc2423035",
+                    "name": "Gamba Osaka vs Bangkok United FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775400045/matches/img-gambaosakavsbangkokunitedfc2423035.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-e5b5708e029b",
+                            "name": "Gamba Osaka - Bangkok United FC",
+                            "contents": [
+                                {
+                                    "id": "ct-a23bb8a9e8e8",
+                                    "name": "AFC Champions League 2",
+                                    "streams": [
+                                        {
+                                            "id": "st-fea2ac01fd96",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-e87ed83a54f0",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-949fdddf005d",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-fd5163142350",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-5561724b7a06",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-45c9e311e12e",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/gamba-osaka-vs-bangkok-united-fc-2423035"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1050,19 +1067,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e82f2a3476d4",
+                            "id": "src-32b3b3453561",
                             "name": "Al Fayha - Al-Ahli SFC",
                             "contents": [
                                 {
-                                    "id": "ct-91792ceb9413",
+                                    "id": "ct-a230c680348d",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-152bc86827bd",
+                                            "id": "st-7845b1da7000",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0078af9c6b69",
+                                                    "id": "lnk-e01c5504e438",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1079,7 +1096,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b75e598ab681",
+                                                    "id": "lnk-644c749df119",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1096,7 +1113,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1ad0ce7774bc",
+                                                    "id": "lnk-5a036f439a58",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1113,7 +1130,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-76dd684d00ef",
+                                                    "id": "lnk-2923fd37750b",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1130,7 +1147,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0084e5132797",
+                                                    "id": "lnk-640a20eb3e05",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1176,19 +1193,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-2b52f5d7ab7f",
+                            "id": "src-15a250997201",
                             "name": "Sporting Braga - Real Betis",
                             "contents": [
                                 {
-                                    "id": "ct-aa7cdc56e0ee",
+                                    "id": "ct-e3a9177bfba2",
                                     "name": "UEFA Europa League",
                                     "streams": [
                                         {
-                                            "id": "st-a13cdd5de84b",
+                                            "id": "st-f43fa7315f39",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-bd84a9d10020",
+                                                    "id": "lnk-96c7693582f1",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1205,7 +1222,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e12eb6240da4",
+                                                    "id": "lnk-b0fb64e5b704",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1222,7 +1239,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-45e45fb92cbb",
+                                                    "id": "lnk-8b23fa82ba1a",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1239,7 +1256,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-18bbc6de52ba",
+                                                    "id": "lnk-a104c70401e8",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1256,7 +1273,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e32dc0980f0e",
+                                                    "id": "lnk-1bc06c4dd24f",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1302,19 +1319,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-fdf623dfb923",
+                            "id": "src-8d46d53619a3",
                             "name": "Al Hilal - Al Kholood",
                             "contents": [
                                 {
-                                    "id": "ct-639e5b152e25",
+                                    "id": "ct-67abae7a2c22",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-5ce19528d019",
+                                            "id": "st-8130851329a1",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-9d0af3a106b9",
+                                                    "id": "lnk-34685b5f400e",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1331,7 +1348,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9fb55dda3f5a",
+                                                    "id": "lnk-503bd3e0a9b5",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1348,7 +1365,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e01f456a3e5b",
+                                                    "id": "lnk-d79ba331516e",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1365,7 +1382,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c94a2a8a668d",
+                                                    "id": "lnk-14efb203e25d",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1382,7 +1399,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-255424de7d0b",
+                                                    "id": "lnk-8e6c49e3962d",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1391,132 +1408,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/al-hilal-vs-al-kholood-2423454"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-alittihadclubvsneomsportsclub2423455",
-                    "name": "Al Ittihad Club vs NEOM Sports Club",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775476459/matches/img-alittihadclubvsneomsportsclub2423455.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-d351d64c8279",
-                            "name": "Al Ittihad Club - NEOM Sports Club",
-                            "contents": [
-                                {
-                                    "id": "ct-effbbfa444b0",
-                                    "name": "Saudi Professional League",
-                                    "streams": [
-                                        {
-                                            "id": "st-2323b4ca883d",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-f08a3b1bf24b",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-95e50cb65340",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-66d0969cad9e",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f1604e09085e",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5668b7838aca",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1554,19 +1445,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-2faff563a2f6",
+                            "id": "src-c6aed961d405",
                             "name": "FC Barcelona - Atletico Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-9cb9f598bef0",
+                                    "id": "ct-9fb18e617751",
                                     "name": "Off Fan Bà Xã",
                                     "streams": [
                                         {
-                                            "id": "st-dec7f37b28f4",
+                                            "id": "st-8b3815bcaa03",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-d0c82e5b10d9",
+                                                    "id": "lnk-daf5113b1176",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1583,7 +1474,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c60965e0f69c",
+                                                    "id": "lnk-0d1a48e9fc44",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1600,7 +1491,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-407c24236331",
+                                                    "id": "lnk-4ca285069a9d",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1617,7 +1508,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fa166fd9e876",
+                                                    "id": "lnk-a7879f1a4795",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1634,7 +1525,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0ea8228394ff",
+                                                    "id": "lnk-1815aafb73ee",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1659,8 +1550,8 @@
                     ]
                 },
                 {
-                    "id": "ch-parissaintgermainvsliverpool2423469",
-                    "name": "Paris Saint Germain vs Liverpool",
+                    "id": "ch-alittihadclubvsneomsportsclub2423455",
+                    "name": "Al Ittihad Club vs NEOM Sports Club",
                     "labels": [
                         {
                             "position": "top-left",
@@ -1671,7 +1562,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775476460/matches/img-parissaintgermainvsliverpool2423469.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775476459/matches/img-alittihadclubvsneomsportsclub2423455.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -1680,27 +1571,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-853e765c8b80",
-                            "name": "Paris Saint Germain - Liverpool",
+                            "id": "src-3a1fe0cd401c",
+                            "name": "Al Ittihad Club - NEOM Sports Club",
                             "contents": [
                                 {
-                                    "id": "ct-17f7d0feb947",
-                                    "name": "UEFA Champions League",
+                                    "id": "ct-7c07da276bda",
+                                    "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-e5322f0dee7b",
+                                            "id": "st-15bd47469c59",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-1053056dc90e",
+                                                    "id": "lnk-b8b482517424",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo/playlist.m3u8",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1709,15 +1600,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5d4d9f4f6ed2",
+                                                    "id": "lnk-93fd839c2656",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo/playlist.m3u8",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1726,15 +1617,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a4706f84f061",
+                                                    "id": "lnk-5a796c2acc5b",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo/playlist.m3u8",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1743,15 +1634,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c32a8ad37550",
+                                                    "id": "lnk-4dafd83c29df",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo.flv",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1760,267 +1651,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-1beadee2d760",
+                                                    "id": "lnk-bbbfe9299afe",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo.flv",
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-dylan.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-melbournecityvscentralcoastmariners2422618",
-                    "name": "Melbourne City vs Central Coast Mariners",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Fulltime",
-                            "color": "#9E9E9E",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775321057/matches/img-melbournecityvscentralcoastmariners2422618.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-58dd76787ecf",
-                            "name": "Melbourne City - Central Coast Mariners",
-                            "contents": [
-                                {
-                                    "id": "ct-04cfc6303574",
-                                    "name": "Australia A-League",
-                                    "streams": [
-                                        {
-                                            "id": "st-98c22c3e4d5b",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-baacdb37b83a",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/melbourne-city-vs-central-coast-mariners-2422618"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-29f55a1d96df",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/melbourne-city-vs-central-coast-mariners-2422618"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c046f8135644",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/melbourne-city-vs-central-coast-mariners-2422618"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-fc0677b12fe3",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/melbourne-city-vs-central-coast-mariners-2422618"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-810392522a39",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/melbourne-city-vs-central-coast-mariners-2422618"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-cuscofcvscrflamengo2423509",
-                    "name": "Cusco FC vs CR Flamengo",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775476460/matches/img-cuscofcvscrflamengo2423509.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-24fd7aec5508",
-                            "name": "Cusco FC - CR Flamengo",
-                            "contents": [
-                                {
-                                    "id": "ct-acd331cc7ae6",
-                                    "name": "CONMEBOL Copa Libertadores",
-                                    "streams": [
-                                        {
-                                            "id": "st-deb31ae09e2c",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-9ac85347a2c4",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-de08c9b660a0",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b3bf4cc4235b",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-0dcc08f59a92",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-1ff7d9a5b929",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
+                                                            "value": "https://hoadaotv.info/al-ittihad-club-vs-neom-sports-club-2423455"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2058,19 +1697,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-693b9b72024d",
+                            "id": "src-535298ad7cf2",
                             "name": "FC Barcelona - Atletico Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-3fcae87d0fda",
+                                    "id": "ct-87ce6ca66493",
                                     "name": "UEFA Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-929dbf109e73",
+                                            "id": "st-266c72b3f757",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-64761be087ff",
+                                                    "id": "lnk-b15892236e1e",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2087,7 +1726,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-03a319f1a313",
+                                                    "id": "lnk-d7dc451965ca",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2104,7 +1743,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-df306e09d587",
+                                                    "id": "lnk-eea5c53065ed",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2121,7 +1760,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0419effc0611",
+                                                    "id": "lnk-040185085972",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2138,7 +1777,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0a6be1a44120",
+                                                    "id": "lnk-053c5114311b",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2147,6 +1786,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/fc-barcelona-vs-atletico-madrid-2423468"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-parissaintgermainvsliverpool2423469",
+                    "name": "Paris Saint Germain vs Liverpool",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775476460/matches/img-parissaintgermainvsliverpool2423469.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-3516bcbd2d91",
+                            "name": "Paris Saint Germain - Liverpool",
+                            "contents": [
+                                {
+                                    "id": "ct-e9f55e0dd4fe",
+                                    "name": "UEFA Champions League",
+                                    "streams": [
+                                        {
+                                            "id": "st-dc0beb5fbb44",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-17221dfa4db3",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-e531d8721557",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-37d5522c926e",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-96353eb1738c",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-eec774ad706c",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-meo-beo.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/paris-saint-germain-vs-liverpool-2423469"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2184,19 +1949,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-8d81b2373e22",
+                            "id": "src-80447522736e",
                             "name": "Toluca - Los Angeles Galaxy",
                             "contents": [
                                 {
-                                    "id": "ct-c700951efd91",
+                                    "id": "ct-97dfc532265d",
                                     "name": "CONCACAF Champions Cup",
                                     "streams": [
                                         {
-                                            "id": "st-2cbb16921ef6",
+                                            "id": "st-f7bcc116ce23",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-9e89488736b9",
+                                                    "id": "lnk-3220eb362248",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2213,7 +1978,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b004c2eaa640",
+                                                    "id": "lnk-3b340c99574a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2230,7 +1995,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-658983d2684d",
+                                                    "id": "lnk-ad52e9e0c53a",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2247,7 +2012,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-95caf9be4a37",
+                                                    "id": "lnk-c632e5d3c680",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2264,7 +2029,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f06f0c0256f0",
+                                                    "id": "lnk-81d8ddcd6dee",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2273,6 +2038,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/toluca-vs-los-angeles-galaxy-2423004"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-cuscofcvscrflamengo2423509",
+                    "name": "Cusco FC vs CR Flamengo",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775476460/matches/img-cuscofcvscrflamengo2423509.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-435c00b7fc51",
+                            "name": "Cusco FC - CR Flamengo",
+                            "contents": [
+                                {
+                                    "id": "ct-f09ec26b9270",
+                                    "name": "CONMEBOL Copa Libertadores",
+                                    "streams": [
+                                        {
+                                            "id": "st-28ab27f9b953",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-b041c9c6eb39",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-98d724ecea19",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-07ec8f10d37d",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c46d18844c77",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-d1ff1e5a8db8",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live10.footballvideocdn20xx.info/live/blv-tao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/cusco-fc-vs-cr-flamengo-2423509"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2310,19 +2201,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-d8af0eaac51c",
+                            "id": "src-92ef333d17ab",
                             "name": "Damac - Al Qadsiah",
                             "contents": [
                                 {
-                                    "id": "ct-52e044588fef",
+                                    "id": "ct-3bad81ddcf54",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-b3a5307eee8a",
+                                            "id": "st-e47df304176c",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-6ad321ab0da3",
+                                                    "id": "lnk-d01c33851bf0",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2339,7 +2230,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ccf8c9f33532",
+                                                    "id": "lnk-d195d7df993c",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2356,7 +2247,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a9ee4b052502",
+                                                    "id": "lnk-675585f33694",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2373,7 +2264,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-96cf0fe7694a",
+                                                    "id": "lnk-692e4eddf49a",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2390,7 +2281,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-344d2b1c752e",
+                                                    "id": "lnk-0a907bbc4312",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2436,19 +2327,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-3e9992e23d8e",
+                            "id": "src-c0068077c7ca",
                             "name": "Rayo Vallecano - AEK Athens",
                             "contents": [
                                 {
-                                    "id": "ct-366077d68257",
+                                    "id": "ct-17dc9de63b81",
                                     "name": "UEFA Europa Conference League",
                                     "streams": [
                                         {
-                                            "id": "st-2008836e79fb",
+                                            "id": "st-b85c2962d3b9",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-7cdb4f462616",
+                                                    "id": "lnk-e93ceaab328b",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2465,7 +2356,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b5644efa12d8",
+                                                    "id": "lnk-712b373ff78a",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2482,7 +2373,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-5d2d8295c168",
+                                                    "id": "lnk-95e734512fcb",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2499,7 +2390,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2cc908ffd62f",
+                                                    "id": "lnk-6f490aef7bb0",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2516,7 +2407,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7f95a78073bf",
+                                                    "id": "lnk-5ad8f4a18375",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2525,6 +2416,296 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.info/rayo-vallecano-vs-aek-athens-2423878"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-fcmeshakhtetkibulivsspaerifc2422630",
+                    "name": "Fc Meshakhte Tkibuli vs Spaeri FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775563085/matches/img-fcmeshakhtetkibulivsspaerifc2422630.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-12c1e779d0d4",
+                            "name": "Fc Meshakhte Tkibuli - Spaeri FC",
+                            "contents": [
+                                {
+                                    "id": "ct-2a81e5fcb19b",
+                                    "name": "Georgia Erovnuli Liga",
+                                    "streams": [
+                                        {
+                                            "id": "st-a9775e423c6e",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-71b8ae1c5160",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/e511f4254eb8441973af32e00d353990/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/fc-meshakhte-tkibuli-vs-spaeri-fc-2422630"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-stabaekbvsoddgrenland22422633",
+                    "name": "Stabaek B vs Odd Grenland 2",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775563086/matches/img-stabaekbvsoddgrenland22422633.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-f6b197bad6ca",
+                            "name": "Stabaek B - Odd Grenland 2",
+                            "contents": [
+                                {
+                                    "id": "ct-d2e27ad7f2f4",
+                                    "name": "Norwegian 3.Divisjon",
+                                    "streams": [
+                                        {
+                                            "id": "st-ac8fa36be195",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-5ed6b7f951ea",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/75767914a7788500915976041fb9afc0/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/stabaek-b-vs-odd-grenland-2-2422633"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-santaclarau23vsbenficau232422632",
+                    "name": "Santa Clara U23 vs Benfica U23",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775563086/matches/img-santaclarau23vsbenficau232422632.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-5388518230be",
+                            "name": "Santa Clara U23 - Benfica U23",
+                            "contents": [
+                                {
+                                    "id": "ct-8fbad1dee69b",
+                                    "name": "Portuguese U23 League",
+                                    "streams": [
+                                        {
+                                            "id": "st-71121dc459eb",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-faad7f21469f",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/41d7256f4ee86591b0122cb990542d5a/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/santa-clara-u23-vs-benfica-u23-2422632"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-imilifkvsturantovuz2422635",
+                    "name": "İmişli FK vs Turan Tovuz",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775563087/matches/img-imilifkvsturantovuz2422635.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-11146955d58f",
+                            "name": "İmişli FK - Turan Tovuz",
+                            "contents": [
+                                {
+                                    "id": "ct-af9b822da9b7",
+                                    "name": "Azerbaijan Premier League",
+                                    "streams": [
+                                        {
+                                            "id": "st-5d3c41a688ed",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-eca366f5085a",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/2591794b5cc00381c3c6c0fc7e20864b/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/imili-fk-vs-turan-tovuz-2422635"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-atakashataysporvsadanademirspor2422638",
+                    "name": "Atakas Hatayspor vs Adana Demirspor",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1775563087/matches/img-atakashataysporvsadanademirspor2422638.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-69863a5d5246",
+                            "name": "Atakas Hatayspor - Adana Demirspor",
+                            "contents": [
+                                {
+                                    "id": "ct-e120f8594ec2",
+                                    "name": "Turkish First League",
+                                    "streams": [
+                                        {
+                                            "id": "st-f1c9d9d9947f",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-979f3258aca0",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://live.alilicloud.com/live/081d3ccd736b253953cdb2470907a5dd/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.info/atakas-hatayspor-vs-adana-demirspor-2422638"
                                                         },
                                                         {
                                                             "key": "User-Agent",
