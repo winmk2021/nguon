@@ -21,8 +21,134 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-footballclubseoulvsfcanyang2444449",
-                    "name": "Football Club Seoul vs FC Anyang",
+                    "id": "ch-alkhaleejclubvsalhilal2444796",
+                    "name": "Al Khaleej Club vs Al Hilal",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777918799/matches/img-alkhaleejclubvsalhilal2444796.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-731f808abcfa",
+                            "name": "Al Khaleej Club - Al Hilal",
+                            "contents": [
+                                {
+                                    "id": "ct-cb6076906c9b",
+                                    "name": "Saudi Professional League",
+                                    "streams": [
+                                        {
+                                            "id": "st-3f8648712075",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-74442788523e",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-8f3895ab1490",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-b0c91c422f03",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-1de9b5c40760",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-fbfab6dbb3bf",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-ajmanvsaljazirauae2444506",
+                    "name": "Ajman vs Al-Jazira(UAE)",
                     "labels": [
                         {
                             "position": "top-left",
@@ -33,7 +159,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777886780/matches/img-footballclubseoulvsfcanyang2444449.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777886782/matches/img-ajmanvsaljazirauae2444506.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -42,44 +168,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-5a55f6de9576",
-                            "name": "Football Club Seoul - FC Anyang",
+                            "id": "src-fb68dbe20257",
+                            "name": "Ajman - Al-Jazira(UAE)",
                             "contents": [
                                 {
-                                    "id": "ct-75c93779be17",
-                                    "name": "Korean K League 1",
+                                    "id": "ct-28e3b204c256",
+                                    "name": "United Arab Emirates Adnoc Pro-League",
                                     "streams": [
                                         {
-                                            "id": "st-0e6f605bf037",
+                                            "id": "st-0f169811fd98",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-98ac8885f1cf",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/bd1eae2d9c1ca9a803e52524fb97a194/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/football-club-seoul-vs-fc-anyang-2444449"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b7c8e472053c",
+                                                    "id": "lnk-11095e9a6595",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/football-club-seoul-vs-fc-anyang-2444449"
+                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -88,15 +197,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d4a1210101f2",
+                                                    "id": "lnk-41ca040bf7a1",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/football-club-seoul-vs-fc-anyang-2444449"
+                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -105,15 +214,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-81eec5fe38fb",
+                                                    "id": "lnk-5e32b239d15c",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/football-club-seoul-vs-fc-anyang-2444449"
+                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -122,15 +231,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7db7dc841a15",
+                                                    "id": "lnk-78f43f950528",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/football-club-seoul-vs-fc-anyang-2444449"
+                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -139,284 +248,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e2409ecc2ce1",
+                                                    "id": "lnk-c0a7ea57e1be",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/football-club-seoul-vs-fc-anyang-2444449"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-shandongtaishanvsshanghaishenhua2444460",
-                    "name": "Shandong Taishan vs Shanghai Shenhua",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777886780/matches/img-shandongtaishanvsshanghaishenhua2444460.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-08a1a5b262e2",
-                            "name": "Shandong Taishan - Shanghai Shenhua",
-                            "contents": [
-                                {
-                                    "id": "ct-c800455e75d1",
-                                    "name": "Chinese Football Super League",
-                                    "streams": [
-                                        {
-                                            "id": "st-8869d4797648",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-ba961b2f0c8f",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://live.alilicloud.com/live/a5dd3836ead48049175bb67bcd6c376b/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/shandong-taishan-vs-shanghai-shenhua-2444460"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6cf74afb5bc3",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/shandong-taishan-vs-shanghai-shenhua-2444460"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8884823b5238",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/shandong-taishan-vs-shanghai-shenhua-2444460"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-39074ae1fc8d",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/shandong-taishan-vs-shanghai-shenhua-2444460"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-250a5f03ae84",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/shandong-taishan-vs-shanghai-shenhua-2444460"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5f3b8cbfbe9c",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/shandong-taishan-vs-shanghai-shenhua-2444460"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-borneofcvspersitatangerang2444475",
-                    "name": "Borneo FC vs Persita Tangerang",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777886782/matches/img-borneofcvspersitatangerang2444475.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-1bcd7e2a7c0e",
-                            "name": "Borneo FC - Persita Tangerang",
-                            "contents": [
-                                {
-                                    "id": "ct-dea30c0f0a20",
-                                    "name": "Indonesian Super League",
-                                    "streams": [
-                                        {
-                                            "id": "st-f4144a61463c",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-5bf72ed97660",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/borneo-fc-vs-persita-tangerang-2444475"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f1224b03ad34",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/borneo-fc-vs-persita-tangerang-2444475"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-249bd79088b3",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/borneo-fc-vs-persita-tangerang-2444475"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-08099f5edde8",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/borneo-fc-vs-persita-tangerang-2444475"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-9df87568712e",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/borneo-fc-vs-persita-tangerang-2444475"
+                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -454,261 +294,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-7d1e577ed347",
+                            "id": "src-8e05909bd6f8",
                             "name": "Ittihad Kalba FC - Khor Fakkan SSC",
                             "contents": [
                                 {
-                                    "id": "ct-7f506f5ddb14",
+                                    "id": "ct-2453bead2719",
                                     "name": "United Arab Emirates Adnoc Pro-League",
                                     "streams": [
                                         {
-                                            "id": "st-4a3ba8c866a6",
-                                            "name": "Stream",
-                                            "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-ajmanvsaljazirauae2444506",
-                    "name": "Ajman vs Al-Jazira(UAE)",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777886782/matches/img-ajmanvsaljazirauae2444506.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-cfbc0e0c2120",
-                            "name": "Ajman - Al-Jazira(UAE)",
-                            "contents": [
-                                {
-                                    "id": "ct-cbe029854f2b",
-                                    "name": "United Arab Emirates Adnoc Pro-League",
-                                    "streams": [
-                                        {
-                                            "id": "st-f5819908e3d4",
+                                            "id": "st-10d3e7fbf752",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-91bbf80f9baa",
-                                                    "name": "HD",
+                                                    "id": "lnk-c050dd7e5538",
+                                                    "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
+                                                    "url": "https://live.alilicloud.com/live/0ffae0976ec5b1f600c1932816d0b467/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-cf176dca9bd2",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c6620cd3b969",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-508e82900cf8",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-dea2a1e1b7e5",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/ajman-vs-al-jazirauae-2444506"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-alkhaleejclubvsalhilal2444796",
-                    "name": "Al Khaleej Club vs Al Hilal",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777918799/matches/img-alkhaleejclubvsalhilal2444796.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-1d4d7823c35b",
-                            "name": "Al Khaleej Club - Al Hilal",
-                            "contents": [
-                                {
-                                    "id": "ct-db593286e622",
-                                    "name": "Saudi Professional League",
-                                    "streams": [
-                                        {
-                                            "id": "st-e35e8e748c68",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-e323e3ba250b",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-204b41938de1",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8a0e8b0f571f",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-bd0d80f406b4",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-566181407461",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/al-khaleej-club-vs-al-hilal-2444796"
+                                                            "value": "https://hoadaotv.me/ittihad-kalba-fc-vs-khor-fakkan-ssc-2444773"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -746,19 +352,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-052b604699b2",
+                            "id": "src-0807e3f949fd",
                             "name": "Arsenal - Atletico Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-483a1e812859",
+                                    "id": "ct-013c8957ccfc",
                                     "name": "UEFA Champions League",
                                     "streams": [
                                         {
-                                            "id": "st-3e6781305008",
+                                            "id": "st-b2fbc9f26416",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-6a6e5f36df67",
+                                                    "id": "lnk-8a0c89b6bc33",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -775,7 +381,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-75c5c31e041c",
+                                                    "id": "lnk-b564a97c7d47",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -792,7 +398,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-eec47dd8ff5b",
+                                                    "id": "lnk-34057854c15f",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -809,7 +415,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f40420f85cf7",
+                                                    "id": "lnk-febd5124afc6",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -826,7 +432,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-accdc0fbbb9a",
+                                                    "id": "lnk-47657a69f15b",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -835,132 +441,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-2444802"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-arsenalvsatleticomadridchaoquay2449093",
-                    "name": "Arsenal vs Atletico Madrid",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777918801/matches/img-arsenalvsatleticomadridchaoquay2449093.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-5f960cbcea53",
-                            "name": "Arsenal - Atletico Madrid",
-                            "contents": [
-                                {
-                                    "id": "ct-6fe83337c07f",
-                                    "name": "Trung Lập",
-                                    "streams": [
-                                        {
-                                            "id": "st-10e0c2da487f",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-8cf6fbdc5427",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-0ec7f251ee22",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5a4745034997",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-47ee4ce5d83b",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-ebbafbd5d6a8",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -998,19 +478,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-a2f99c0050dd",
+                            "id": "src-15f0155eb8ec",
                             "name": "Arsenal - Atletico Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-e0903b522fb3",
+                                    "id": "ct-a72092f8d9dc",
                                     "name": "Off Fan Arsenal",
                                     "streams": [
                                         {
-                                            "id": "st-7136744e3b0b",
+                                            "id": "st-05b7242c1754",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-49aac2b78cd6",
+                                                    "id": "lnk-99c1686875be",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1027,7 +507,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cb37eb9abad1",
+                                                    "id": "lnk-258c8abdf2fc",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1044,7 +524,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ccb01806d55e",
+                                                    "id": "lnk-9c362df5bacb",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1061,7 +541,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-de2cdcf8fcda",
+                                                    "id": "lnk-f25be07290cf",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1078,7 +558,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-4f9396314a2b",
+                                                    "id": "lnk-93918d8e9887",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1103,7 +583,7 @@
                     ]
                 },
                 {
-                    "id": "ch-arsenalvsatleticomadridfanta2449095",
+                    "id": "ch-arsenalvsatleticomadridchaoquay2449093",
                     "name": "Arsenal vs Atletico Madrid",
                     "labels": [
                         {
@@ -1115,7 +595,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777918802/matches/img-arsenalvsatleticomadridfanta2449095.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777918801/matches/img-arsenalvsatleticomadridchaoquay2449093.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -1124,27 +604,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-571993294e55",
+                            "id": "src-33b25a01704f",
                             "name": "Arsenal - Atletico Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-c469e7bbac89",
-                                    "name": "Luồng Doanh Nhân (Anti Pháo)",
+                                    "id": "ct-9c1c917e238d",
+                                    "name": "Trung Lập",
                                     "streams": [
                                         {
-                                            "id": "st-350464558c7c",
+                                            "id": "st-a7a2eacf2cc0",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-1797279e616b",
+                                                    "id": "lnk-8796af436de0",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1153,15 +633,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-78c7121276c7",
+                                                    "id": "lnk-b3ae96f08923",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1170,15 +650,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e765b62b899e",
+                                                    "id": "lnk-97c53df32089",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1187,15 +667,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-acd79b5c3494",
+                                                    "id": "lnk-0057f23a8bb0",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1204,15 +684,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d5f2f87bc781",
+                                                    "id": "lnk-9988c880a2b7",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-chaoquay-2449093"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1250,19 +730,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-74f022e2c5f2",
+                            "id": "src-b1489e39f8bc",
                             "name": "Arsenal - Atletico Madrid",
                             "contents": [
                                 {
-                                    "id": "ct-e3b34c350848",
+                                    "id": "ct-7c73831a8d29",
                                     "name": "Trung Lập",
                                     "streams": [
                                         {
-                                            "id": "st-21df4d583cf5",
+                                            "id": "st-2540dbf46974",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-37db64d8ea2e",
+                                                    "id": "lnk-9ee36173044d",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1279,7 +759,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-af01d8148d64",
+                                                    "id": "lnk-a4574510d330",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1296,7 +776,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-065bf3dea7ce",
+                                                    "id": "lnk-223543942cfc",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1313,7 +793,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-604b8c1ee163",
+                                                    "id": "lnk-c1da019a2b97",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1330,7 +810,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e8a8b56448ba",
+                                                    "id": "lnk-462c4ded0fb2",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1339,6 +819,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-map-2449092"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-arsenalvsatleticomadridfanta2449095",
+                    "name": "Arsenal vs Atletico Madrid",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777918802/matches/img-arsenalvsatleticomadridfanta2449095.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-a19f6b8e4492",
+                            "name": "Arsenal - Atletico Madrid",
+                            "contents": [
+                                {
+                                    "id": "ct-9e6426b76dbe",
+                                    "name": "Luồng Doanh Nhân (Anti Pháo)",
+                                    "streams": [
+                                        {
+                                            "id": "st-0639c564cd49",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-96fc453714dc",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-ea278b075de7",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-41c9406fe1d3",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-6b884d0c0e97",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-b8bebfdfe441",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-fanta.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/arsenal-vs-atletico-madrid-fanta-2449095"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1376,19 +982,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-efe03da8add2",
+                            "id": "src-30f3f959a8af",
                             "name": "Shimizu S-Pulse - Cerezo Osaka",
                             "contents": [
                                 {
-                                    "id": "ct-65ec466b3e2e",
+                                    "id": "ct-1815922ad058",
                                     "name": "Japanese J1 League",
                                     "streams": [
                                         {
-                                            "id": "st-92f95eb54fd8",
+                                            "id": "st-ddcebd4898a1",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-12fc85d6ea28",
+                                                    "id": "lnk-5f761a21bdca",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1405,7 +1011,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-47212b518c74",
+                                                    "id": "lnk-ea1460154d8f",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1422,7 +1028,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9fb86307c27a",
+                                                    "id": "lnk-e18fd1dfb193",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1439,7 +1045,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9c730fc2b5cd",
+                                                    "id": "lnk-c745682ac7f8",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1456,7 +1062,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6840e1ceeac9",
+                                                    "id": "lnk-1b703901574c",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1465,132 +1071,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/shimizu-s-pulse-vs-cerezo-osaka-2444819"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-kashiwareysolvsurawareddiamonds2444850",
-                    "name": "Kashiwa Reysol vs Urawa Red Diamonds",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777972272/matches/img-kashiwareysolvsurawareddiamonds2444850.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-652c38d5d76b",
-                            "name": "Kashiwa Reysol - Urawa Red Diamonds",
-                            "contents": [
-                                {
-                                    "id": "ct-7b41ad15808a",
-                                    "name": "Japanese J1 League",
-                                    "streams": [
-                                        {
-                                            "id": "st-05e6a3cf476f",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-7e6bf6a2a3cb",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-665abe284dd9",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6e07ce98c31d",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-a58f0ac3160f",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-56d642d3da33",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1628,19 +1108,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-4469fd2f8dab",
+                            "id": "src-8366b6664ac5",
                             "name": "Sanfrecce Hiroshima - Vissel Kobe",
                             "contents": [
                                 {
-                                    "id": "ct-87a76141eca5",
+                                    "id": "ct-4ddd30a36145",
                                     "name": "Japanese J1 League",
                                     "streams": [
                                         {
-                                            "id": "st-df3fb05dcece",
+                                            "id": "st-7841a1bf1eeb",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-8d5c64f109bb",
+                                                    "id": "lnk-5f4e463289c0",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1657,7 +1137,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-38dc482721c5",
+                                                    "id": "lnk-0c13c88b13fc",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1674,7 +1154,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e1452a180c5d",
+                                                    "id": "lnk-bf2be99556ef",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1691,7 +1171,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-fc335976141c",
+                                                    "id": "lnk-82addf28e25a",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1708,7 +1188,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-088d3d7e235c",
+                                                    "id": "lnk-cca9eb508f2c",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1717,6 +1197,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/sanfrecce-hiroshima-vs-vissel-kobe-2444840"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-kashiwareysolvsurawareddiamonds2444850",
+                    "name": "Kashiwa Reysol vs Urawa Red Diamonds",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777972272/matches/img-kashiwareysolvsurawareddiamonds2444850.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-8e94759c06a8",
+                            "name": "Kashiwa Reysol - Urawa Red Diamonds",
+                            "contents": [
+                                {
+                                    "id": "ct-2c7d6607af2a",
+                                    "name": "Japanese J1 League",
+                                    "streams": [
+                                        {
+                                            "id": "st-e01dce2d0ebd",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-70ce161562bd",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-a15a8e3cff21",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-8f94d44556df",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-43cbeb67352f",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-0fce4b9ac7cf",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/kashiwa-reysol-vs-urawa-red-diamonds-2444850"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1754,19 +1360,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-a3e76a4cb209",
+                            "id": "src-273805b3e818",
                             "name": "Johor Darul Ta'zim FC - Buriram United",
                             "contents": [
                                 {
-                                    "id": "ct-75fbd44485d7",
+                                    "id": "ct-72952b802386",
                                     "name": "Asean Club Championship Shopee Cup",
                                     "streams": [
                                         {
-                                            "id": "st-ec57596edd9c",
+                                            "id": "st-d822e211ca2d",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-2ef6c5a4c5ec",
+                                                    "id": "lnk-264681401d0a",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1783,7 +1389,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-8d80edf91c8c",
+                                                    "id": "lnk-3ce59f74cb5b",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1800,7 +1406,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6dc2b563936d",
+                                                    "id": "lnk-bb346d93226f",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1817,7 +1423,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-716b9fd7a455",
+                                                    "id": "lnk-ac13aef07454",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1834,7 +1440,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0dfe18b7e25c",
+                                                    "id": "lnk-a5fc5c6e79ff",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1880,19 +1486,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-c6c927253ce0",
+                            "id": "src-9bbc4e743f72",
                             "name": "Selangor FC - Thep Xanh Nam Dinh FC",
                             "contents": [
                                 {
-                                    "id": "ct-5747c1541fab",
+                                    "id": "ct-4db350f7d9b8",
                                     "name": "Asean Club Championship Shopee Cup",
                                     "streams": [
                                         {
-                                            "id": "st-aacb8ba684bb",
+                                            "id": "st-c37396f5a386",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-60d16b74c41d",
+                                                    "id": "lnk-2900325350a9",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1909,7 +1515,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0ff0134457c3",
+                                                    "id": "lnk-fcf8f4cb3c34",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1926,7 +1532,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d670f1577c86",
+                                                    "id": "lnk-c83e6f1be647",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1943,7 +1549,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e8d355cd6ce9",
+                                                    "id": "lnk-79e56704f3ea",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1960,7 +1566,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9b87bf03398b",
+                                                    "id": "lnk-d4bdaca671f7",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2006,19 +1612,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-13dfcc6dd649",
+                            "id": "src-2902b34b0a44",
                             "name": "Shanghai Port - Shenzhen Peng City",
                             "contents": [
                                 {
-                                    "id": "ct-03741c9ef30a",
+                                    "id": "ct-0bc7de9081f9",
                                     "name": "Chinese Football Super League",
                                     "streams": [
                                         {
-                                            "id": "st-868a816d7505",
+                                            "id": "st-904d33402540",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-5f6379df58a2",
+                                                    "id": "lnk-d9d20c911352",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2035,7 +1641,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b4f3758b9b34",
+                                                    "id": "lnk-ec1296b23e48",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2052,7 +1658,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3d1284f5f2be",
+                                                    "id": "lnk-0a0971238d9e",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2069,7 +1675,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-7a477ea2961b",
+                                                    "id": "lnk-1854dcc517b4",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2086,7 +1692,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a1a2e15acc33",
+                                                    "id": "lnk-5dac9e55ccc9",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2132,143 +1738,17 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-2d56a2ade034",
+                            "id": "src-01057fdaa901",
                             "name": "Selangor FC - Thep Xanh Nam Dinh FC",
                             "contents": [
                                 {
-                                    "id": "ct-12ccdd7e3f4c",
+                                    "id": "ct-3c8a005cf54d",
                                     "name": "Luồng Doanh Nhân",
                                     "streams": [
                                         {
-                                            "id": "st-6e98c1ae5a24",
+                                            "id": "st-3fb8b695ce45",
                                             "name": "Stream",
                                             "stream_links": []
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-minervapunjabvschennaiyinfc2444896",
-                    "name": "Minerva Punjab vs Chennaiyin FC",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777972275/matches/img-minervapunjabvschennaiyinfc2444896.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-12d7aff3a857",
-                            "name": "Minerva Punjab - Chennaiyin FC",
-                            "contents": [
-                                {
-                                    "id": "ct-5c8ba25a11cd",
-                                    "name": "Indian Super League",
-                                    "streams": [
-                                        {
-                                            "id": "st-0d09cf31642c",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-91e861b16e34",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-d119303918de",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c1a74992699d",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-28f95e1f886b",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2b9cfbcb4b7d",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
                                         }
                                     ]
                                 }
@@ -2298,19 +1778,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-202422e708f7",
+                            "id": "src-73712b627494",
                             "name": "Al Akhdar - Al Nasr",
                             "contents": [
                                 {
-                                    "id": "ct-6429c8c20073",
+                                    "id": "ct-164734003e90",
                                     "name": "Libyan Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-cf0178c069e7",
+                                            "id": "st-9d134525efe9",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-ce964c13374b",
+                                                    "id": "lnk-2160183ec0ed",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2327,7 +1807,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f8a87e836b4c",
+                                                    "id": "lnk-00f32532f6ef",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2344,7 +1824,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-23da31900413",
+                                                    "id": "lnk-b608b4f6422b",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -2361,7 +1841,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f443d3491a7c",
+                                                    "id": "lnk-71d48eb471fe",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2378,7 +1858,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-93d7feba765d",
+                                                    "id": "lnk-2ef12751c674",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2403,19 +1883,19 @@
                     ]
                 },
                 {
-                    "id": "ch-qingdaowestcoastvstianjinjinmentiger2444454",
-                    "name": "Qingdao West Coast vs Tianjin Jinmen Tiger",
+                    "id": "ch-minervapunjabvschennaiyinfc2444896",
+                    "name": "Minerva Punjab vs Chennaiyin FC",
                     "labels": [
                         {
                             "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
                             "text_color": "#FFFFFF",
                             "font_size": 8
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777980005/matches/img-qingdaowestcoastvstianjinjinmentiger2444454.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1777972275/matches/img-minervapunjabvschennaiyinfc2444896.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2424,27 +1904,95 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-5562ba6c4d9e",
-                            "name": "Qingdao West Coast - Tianjin Jinmen Tiger",
+                            "id": "src-f84b07e1350a",
+                            "name": "Minerva Punjab - Chennaiyin FC",
                             "contents": [
                                 {
-                                    "id": "ct-c2eefe3e5ed7",
-                                    "name": "Chinese Football Super League",
+                                    "id": "ct-518651e9f646",
+                                    "name": "Indian Super League",
                                     "streams": [
                                         {
-                                            "id": "st-322da1bd3953",
+                                            "id": "st-bc385883ae12",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-df9f14d3e30e",
-                                                    "name": "Nhà đài",
+                                                    "id": "lnk-f07f503fbbbb",
+                                                    "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://live.alilicloud.com/live/ac0233b05cafc9c84e1bdf2cd07de235/playlist.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/qingdao-west-coast-vs-tianjin-jinmen-tiger-2444454"
+                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-8fa82bcd74db",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c289195b52ae",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-e9124ac0fece",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c0eb44594691",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/minerva-punjab-vs-chennaiyin-fc-2444896"
                                                         },
                                                         {
                                                             "key": "User-Agent",
