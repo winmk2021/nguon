@@ -21,8 +21,151 @@
             "enable_detail": true,
             "channels": [
                 {
-                    "id": "ch-spartakmoscowvsrubinkazan2449525",
-                    "name": "Spartak Moscow vs Rubin Kazan",
+                    "id": "ch-napolivsbologna2449866",
+                    "name": "Napoli vs Bologna",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499045/matches/img-napolivsbologna2449866.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-abb7ff9df0bb",
+                            "name": "Napoli - Bologna",
+                            "contents": [
+                                {
+                                    "id": "ct-bb0e6f1cc9ff",
+                                    "name": "Italian Serie A",
+                                    "streams": [
+                                        {
+                                            "id": "st-399cce2f6293",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-bc4346b96bdf",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dlqcalr.alilicloud.com/live/24b985706eba8b708602cf90e671a2b3/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-234c5d1b4634",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-f17c59688760",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-f10d8500521b",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-9e82e54ac76b",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-0b1416071a0d",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-neomsportsclubvsalshababfc2449839",
+                    "name": "NEOM Sports Club vs Al Shabab FC",
                     "labels": [
                         {
                             "position": "top-left",
@@ -33,7 +176,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778403554/matches/img-spartakmoscowvsrubinkazan2449525.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778403555/matches/img-neomsportsclubvsalshababfc2449839.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -42,27 +185,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-bf6dc699f2ad",
-                            "name": "Spartak Moscow - Rubin Kazan",
+                            "id": "src-6c1f94d1a413",
+                            "name": "NEOM Sports Club - Al Shabab FC",
                             "contents": [
                                 {
-                                    "id": "ct-0a83c6fdd326",
-                                    "name": "Russian Premier League",
+                                    "id": "ct-cf185b29379f",
+                                    "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-9bd3057a756c",
+                                            "id": "st-c09716178f00",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-2fcf0bc7ccf2",
+                                                    "id": "lnk-9749a5598109",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/8d7bc7cee9784c4b8598f8dbe3f3d009/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/2c5a7b498dedb7235898b3f3b941be1d/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spartak-moscow-vs-rubin-kazan-2449525"
+                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -71,15 +214,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-c68b2df04e5d",
+                                                    "id": "lnk-6eed1ce65146",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spartak-moscow-vs-rubin-kazan-2449525"
+                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -88,15 +231,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-97a2ca7c0bc2",
+                                                    "id": "lnk-808fed2543d5",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spartak-moscow-vs-rubin-kazan-2449525"
+                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -105,15 +248,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3f2c0a58542c",
+                                                    "id": "lnk-331770c2a6ac",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spartak-moscow-vs-rubin-kazan-2449525"
+                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -122,15 +265,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b192d7ba5b55",
+                                                    "id": "lnk-34a013bbc77d",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spartak-moscow-vs-rubin-kazan-2449525"
+                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -139,15 +282,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6ea1ad97599c",
+                                                    "id": "lnk-6006c85d0ba6",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spartak-moscow-vs-rubin-kazan-2449525"
+                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -185,19 +328,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-04c71d097f06",
+                            "id": "src-04e4064ac5e7",
                             "name": "Al Taawoun - Al-Ahli SFC",
                             "contents": [
                                 {
-                                    "id": "ct-8112e07af9ee",
+                                    "id": "ct-3786dac2ad0a",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-63d0a8c1cd71",
+                                            "id": "st-f793c67d366c",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0828e0982a32",
+                                                    "id": "lnk-37f504c4d1c3",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -214,7 +357,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-681b0d3d7568",
+                                                    "id": "lnk-a21e5b0a41ab",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -231,7 +374,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-424326ccfdc1",
+                                                    "id": "lnk-e5d0d7556ce0",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -248,7 +391,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f2f7b151125f",
+                                                    "id": "lnk-cbb67e0f6827",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -265,7 +408,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-54ee81405d9a",
+                                                    "id": "lnk-213737d21267",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -274,275 +417,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/al-taawoun-vs-al-ahli-sfc-2449853"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-neomsportsclubvsalshababfc2449839",
-                    "name": "NEOM Sports Club vs Al Shabab FC",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778403555/matches/img-neomsportsclubvsalshababfc2449839.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-ec21c8accf05",
-                            "name": "NEOM Sports Club - Al Shabab FC",
-                            "contents": [
-                                {
-                                    "id": "ct-e65d762a1fef",
-                                    "name": "Saudi Professional League",
-                                    "streams": [
-                                        {
-                                            "id": "st-e437ffc5d273",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-6454529f830e",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-3b5251edecab",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2ebd4269f6fe",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b1687d3b79d7",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-6975b175c67a",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/neom-sports-club-vs-al-shabab-fc-2449839"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-napolivsbologna2449866",
-                    "name": "Napoli vs Bologna",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499045/matches/img-napolivsbologna2449866.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-010f72ee9867",
-                            "name": "Napoli - Bologna",
-                            "contents": [
-                                {
-                                    "id": "ct-a216ed8d36e6",
-                                    "name": "Italian Serie A",
-                                    "streams": [
-                                        {
-                                            "id": "st-b8a97a507487",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-0271506a4e30",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/24b985706eba8b708602cf90e671a2b3/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8ad188c3d5f4",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-91acd3a6d112",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-cb534d2aa58e",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-34f276092302",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-c8730b5f690f",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/napoli-vs-bologna-2449866"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -580,19 +454,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-95525e896728",
+                            "id": "src-22e30d8e6f36",
                             "name": "Tottenham Hotspur - Leeds United",
                             "contents": [
                                 {
-                                    "id": "ct-9b93d9890109",
+                                    "id": "ct-11aece4fdc9d",
                                     "name": "English Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-6ef44e7d231c",
+                                            "id": "st-c26d365ca27d",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-30b7bb58bf35",
+                                                    "id": "lnk-787f067feaa9",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
@@ -609,7 +483,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-3204b38108ae",
+                                                    "id": "lnk-34ba7c4a93d4",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -626,7 +500,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-dcba6b5e694e",
+                                                    "id": "lnk-8981d54d8367",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -643,7 +517,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a2f1ff085e83",
+                                                    "id": "lnk-a1b0390ff3f7",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -660,7 +534,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-66c5b903d883",
+                                                    "id": "lnk-116e8d07b9a8",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -677,7 +551,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6137fe2372d6",
+                                                    "id": "lnk-459f8ee7ed3d",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -723,19 +597,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-8c1bb644ccb7",
+                            "id": "src-462742859f27",
                             "name": "Rayo Vallecano - Girona FC",
                             "contents": [
                                 {
-                                    "id": "ct-7795eb08ddfb",
+                                    "id": "ct-836d60af674b",
                                     "name": "Spanish La Liga",
                                     "streams": [
                                         {
-                                            "id": "st-278babb4883f",
+                                            "id": "st-834169fb8ded",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-4d8e48394678",
+                                                    "id": "lnk-a51e98d922f7",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
@@ -752,7 +626,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-aee39d9556f1",
+                                                    "id": "lnk-781bd4698965",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -769,7 +643,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-59a92f562d6d",
+                                                    "id": "lnk-1c04d9929090",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -786,7 +660,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-08293a83daf4",
+                                                    "id": "lnk-a9f05bf6d45c",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -803,7 +677,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-b7c03d270a3a",
+                                                    "id": "lnk-0ddd3b92cd41",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -820,7 +694,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-af02192d5ca1",
+                                                    "id": "lnk-1273b6639da9",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -829,510 +703,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/rayo-vallecano-vs-girona-fc-2449868"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-sportivoamelianovsdeportivorecoleta2449879",
-                    "name": "Sportivo Ameliano vs Deportivo Recoleta",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499047/matches/img-sportivoamelianovsdeportivorecoleta2449879.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-376aed1aa2fa",
-                            "name": "Sportivo Ameliano - Deportivo Recoleta",
-                            "contents": [
-                                {
-                                    "id": "ct-437bdb408b80",
-                                    "name": "Paraguayan Primera Division",
-                                    "streams": [
-                                        {
-                                            "id": "st-726d48eaedfd",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-3a69a0207d5f",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-973fe4ddbe27",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-8c319efbe71b",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-b804aec982d6",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f8e6e1e7ceeb",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-southmelbournevsbulafc2449895",
-                    "name": "South Melbourne vs Bula FC",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499048/matches/img-southmelbournevsbulafc2449895.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-52794477cecc",
-                            "name": "South Melbourne - Bula FC",
-                            "contents": [
-                                {
-                                    "id": "ct-45e86d011481",
-                                    "name": "OFC Pro League",
-                                    "streams": [
-                                        {
-                                            "id": "st-0fdf3ddbf1a8",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-465ec25f76b6",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5d9ab29696da",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-f49aa0dc1fa5",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-035914209139",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2891964cdf9f",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-aucklandfcreservesvssouthislandunitedfc2449896",
-                    "name": "Auckland FC Reserves vs South Island United FC",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499048/matches/img-aucklandfcreservesvssouthislandunitedfc2449896.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-828e7ebd30aa",
-                            "name": "Auckland FC Reserves - South Island United FC",
-                            "contents": [
-                                {
-                                    "id": "ct-c912448bdbe6",
-                                    "name": "OFC Pro League",
-                                    "streams": [
-                                        {
-                                            "id": "st-699bcafbb0df",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-906f09523600",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-03a3131ac96f",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-63b58380b4b7",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-547074a96740",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-cb910e90e4c5",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-gwangjufootballclubvsfootballclubseoul2449915",
-                    "name": "Gwangju Football Club vs Football Club Seoul",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Upcoming",
-                            "color": "#FF9800",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499049/matches/img-gwangjufootballclubvsfootballclubseoul2449915.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-1247259e1711",
-                            "name": "Gwangju Football Club - Football Club Seoul",
-                            "contents": [
-                                {
-                                    "id": "ct-47d36c1a174c",
-                                    "name": "Korean K League 1",
-                                    "streams": [
-                                        {
-                                            "id": "st-d948b943b1cb",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-ada7e60dae39",
-                                                    "name": "HD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-fb2c1e8138d2",
-                                                    "name": "SD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-2ca7c7bba3b6",
-                                                    "name": "FullHD",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-1fb3c9159f6c",
-                                                    "name": "FL",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "id": "lnk-5dd84f1467b0",
-                                                    "name": "FLV2",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1370,19 +740,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-81307e19f0eb",
+                            "id": "src-0b04a2a159ff",
                             "name": "Sport Boys - Universitario De Deportes",
                             "contents": [
                                 {
-                                    "id": "ct-401eaba29448",
+                                    "id": "ct-76762800256f",
                                     "name": "Peruvian Liga 1",
                                     "streams": [
                                         {
-                                            "id": "st-18ca85c2683b",
+                                            "id": "st-899876e60855",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-c20b1ebc0ca2",
+                                                    "id": "lnk-f34dfaafbbb8",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1399,7 +769,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-cf8a39f4ba59",
+                                                    "id": "lnk-cbfe3ea439ba",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1416,7 +786,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-073e2f587ab0",
+                                                    "id": "lnk-eedf66573c4d",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1433,7 +803,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-9267e15013b0",
+                                                    "id": "lnk-6dd924ed2573",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1450,7 +820,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-44a1a08be2e2",
+                                                    "id": "lnk-21332c034d15",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1475,8 +845,8 @@
                     ]
                 },
                 {
-                    "id": "ch-namdharifcvsgokulamkeralafc2450531",
-                    "name": "Namdhari FC vs Gokulam Kerala FC",
+                    "id": "ch-sportivoamelianovsdeportivorecoleta2449879",
+                    "name": "Sportivo Ameliano vs Deportivo Recoleta",
                     "labels": [
                         {
                             "position": "top-left",
@@ -1487,7 +857,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499050/matches/img-namdharifcvsgokulamkeralafc2450531.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499047/matches/img-sportivoamelianovsdeportivorecoleta2449879.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -1496,27 +866,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-b0511fd825f3",
-                            "name": "Namdhari FC - Gokulam Kerala FC",
+                            "id": "src-845abe992b34",
+                            "name": "Sportivo Ameliano - Deportivo Recoleta",
                             "contents": [
                                 {
-                                    "id": "ct-0a7e5a6fd15d",
-                                    "name": "Indian League Division 1",
+                                    "id": "ct-07f97ba184e5",
+                                    "name": "Paraguayan Primera Division",
                                     "streams": [
                                         {
-                                            "id": "st-9aeaba245e74",
+                                            "id": "st-884772080e69",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-97fbb0028085",
+                                                    "id": "lnk-a9d860f9e80c",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1525,15 +895,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ce62750fa069",
+                                                    "id": "lnk-aea7541f2115",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1542,15 +912,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2af258019e52",
+                                                    "id": "lnk-a52643a1d023",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1559,15 +929,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f1cfd1c8426d",
+                                                    "id": "lnk-497ae000dd79",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1576,15 +946,393 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-0b4cf0feea2c",
+                                                    "id": "lnk-b2c14e485016",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv",
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                            "value": "https://hoadaotv.me/sportivo-ameliano-vs-deportivo-recoleta-2449879"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-aucklandfcreservesvssouthislandunitedfc2449896",
+                    "name": "Auckland FC Reserves vs South Island United FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499048/matches/img-aucklandfcreservesvssouthislandunitedfc2449896.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-4566d26302d3",
+                            "name": "Auckland FC Reserves - South Island United FC",
+                            "contents": [
+                                {
+                                    "id": "ct-f4f6c41a1ed5",
+                                    "name": "OFC Pro League",
+                                    "streams": [
+                                        {
+                                            "id": "st-cf323fac070f",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-0869031bbf48",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-dde9c6990225",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-2a6162b42684",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-bf80f2df2629",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-d5d78aa8e15c",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/auckland-fc-reserves-vs-south-island-united-fc-2449896"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-southmelbournevsbulafc2449895",
+                    "name": "South Melbourne vs Bula FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499048/matches/img-southmelbournevsbulafc2449895.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-4474e92cd251",
+                            "name": "South Melbourne - Bula FC",
+                            "contents": [
+                                {
+                                    "id": "ct-9f0cab2eb099",
+                                    "name": "OFC Pro League",
+                                    "streams": [
+                                        {
+                                            "id": "st-1a01c28c8777",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-d395c803d18c",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-c882e334a4b1",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-fcc10352fa0d",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-7d7a5786d07d",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-a84464a71129",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/south-melbourne-vs-bula-fc-2449895"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-gwangjufootballclubvsfootballclubseoul2449915",
+                    "name": "Gwangju Football Club vs Football Club Seoul",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499049/matches/img-gwangjufootballclubvsfootballclubseoul2449915.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-0dba75d1c3b7",
+                            "name": "Gwangju Football Club - Football Club Seoul",
+                            "contents": [
+                                {
+                                    "id": "ct-fa81bd4ada4c",
+                                    "name": "Korean K League 1",
+                                    "streams": [
+                                        {
+                                            "id": "st-8b0c3d5b94a2",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-6f25253738b3",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-d6d3d2ee8fc0",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-0cdaf0397346",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-8a5095ef4412",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-a49744f721ca",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/gwangju-football-club-vs-football-club-seoul-2449915"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1622,19 +1370,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-cae062ec03af",
+                            "id": "src-18fac3449a22",
                             "name": "FK Epitsentr Dunayivtsi - Polissya Zhytomyr",
                             "contents": [
                                 {
-                                    "id": "ct-4a30f02924a5",
+                                    "id": "ct-e384daea1630",
                                     "name": "Ukrainian Premier League",
                                     "streams": [
                                         {
-                                            "id": "st-0b3b486f10b6",
+                                            "id": "st-f36cdcac2e55",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-ed9953b6ed10",
+                                                    "id": "lnk-834c93564a9a",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1651,7 +1399,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-573db9d64b87",
+                                                    "id": "lnk-35d862082e10",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1668,7 +1416,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-2b1b7bd478d1",
+                                                    "id": "lnk-58327bcc6ed8",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1685,7 +1433,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f336d8506b59",
+                                                    "id": "lnk-c0c808affcfc",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1702,7 +1450,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-33f9220b41a6",
+                                                    "id": "lnk-61279a20704a",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1711,6 +1459,132 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/fk-epitsentr-dunayivtsi-vs-polissya-zhytomyr-2449924"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-namdharifcvsgokulamkeralafc2450531",
+                    "name": "Namdhari FC vs Gokulam Kerala FC",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Upcoming",
+                            "color": "#FF9800",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778499050/matches/img-namdharifcvsgokulamkeralafc2450531.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-9649978d85c2",
+                            "name": "Namdhari FC - Gokulam Kerala FC",
+                            "contents": [
+                                {
+                                    "id": "ct-cc6533a2826e",
+                                    "name": "Indian League Division 1",
+                                    "streams": [
+                                        {
+                                            "id": "st-5e30029b3ddd",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-87ffd3e800fe",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-9bdc81773179",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-5366d923be4e",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-8a6a0915a116",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-874899ddede1",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/namdhari-fc-vs-gokulam-kerala-fc-2450531"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1748,19 +1622,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-62fd86c8bcb1",
+                            "id": "src-1ab773f95415",
                             "name": "Mohun Bagan Super Giant - Inter Kashi",
                             "contents": [
                                 {
-                                    "id": "ct-a61145b01644",
+                                    "id": "ct-909c40d8095c",
                                     "name": "Indian Super League",
                                     "streams": [
                                         {
-                                            "id": "st-52db564ddb40",
+                                            "id": "st-b6b05d254ab0",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-ae8d32d2c3a3",
+                                                    "id": "lnk-93e76b491e86",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1777,7 +1651,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-d0dc741c0b46",
+                                                    "id": "lnk-93e79d593ff6",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1794,7 +1668,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-a17549b0ef79",
+                                                    "id": "lnk-c17f7b55eb48",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1811,7 +1685,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e5f2d348aea2",
+                                                    "id": "lnk-2047dcef54bb",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -1828,7 +1702,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-e11c793bb4f0",
+                                                    "id": "lnk-0e317f1d1033",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -1837,64 +1711,6 @@
                                                         {
                                                             "key": "Referer",
                                                             "value": "https://hoadaotv.me/mohun-bagan-super-giant-vs-inter-kashi-2449941"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-fcasiavsozgon2453045",
-                    "name": "FC Asia vs Ozgon",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513125/matches/img-fcasiavsozgon2453045.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-d679a450bd86",
-                            "name": "FC Asia - Ozgon",
-                            "contents": [
-                                {
-                                    "id": "ct-003cd3c86314",
-                                    "name": "Kyrgyz Premier League",
-                                    "streams": [
-                                        {
-                                            "id": "st-0d36324edb03",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-8e568147cbdc",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/68f2ad8cb6e380e61063ee4f54b27773/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/fc-asia-vs-ozgon-2453045"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -1932,19 +1748,19 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-c321e4165411",
+                            "id": "src-d7872e0256e8",
                             "name": "Al Kholood - Al Okhdood",
                             "contents": [
                                 {
-                                    "id": "ct-c9632b09865c",
+                                    "id": "ct-40f92c115946",
                                     "name": "Saudi Professional League",
                                     "streams": [
                                         {
-                                            "id": "st-8b7cff284e4e",
+                                            "id": "st-4d55ebdd1d47",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-1e10ab1fe5e2",
+                                                    "id": "lnk-0a1c3991efbe",
                                                     "name": "HD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1961,7 +1777,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-f0a3b2c1bb53",
+                                                    "id": "lnk-5dd8d5a9a678",
                                                     "name": "SD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1978,7 +1794,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-ed768c821442",
+                                                    "id": "lnk-57f52ffedb00",
                                                     "name": "FullHD",
                                                     "type": "hls",
                                                     "default": true,
@@ -1995,7 +1811,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-18e6b1b88f56",
+                                                    "id": "lnk-29724d27a94c",
                                                     "name": "FL",
                                                     "type": "hls",
                                                     "default": true,
@@ -2012,7 +1828,7 @@
                                                     ]
                                                 },
                                                 {
-                                                    "id": "lnk-6f180ce429f0",
+                                                    "id": "lnk-f268f4a5a5dd",
                                                     "name": "FLV2",
                                                     "type": "hls",
                                                     "default": true,
@@ -2037,8 +1853,8 @@
                     ]
                 },
                 {
-                    "id": "ch-alkahrabaclubvsnewrozsc2449526",
-                    "name": "Al-Kahraba Club vs Newroz SC",
+                    "id": "ch-fclynoslobvsraelingen2448721",
+                    "name": "FC Lyn Oslo B vs Raelingen",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2049,7 +1865,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513126/matches/img-alkahrabaclubvsnewrozsc2449526.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522382/matches/img-fclynoslobvsraelingen2448721.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2058,27 +1874,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e1aaa9cd0267",
-                            "name": "Al-Kahraba Club - Newroz SC",
+                            "id": "src-e644258f79fd",
+                            "name": "FC Lyn Oslo B - Raelingen",
                             "contents": [
                                 {
-                                    "id": "ct-6aeb760d8abc",
-                                    "name": "Iraq Stars League",
+                                    "id": "ct-b1b7b7a0c9a7",
+                                    "name": "Norwegian 3.Divisjon",
                                     "streams": [
                                         {
-                                            "id": "st-ee51b7c2de3c",
+                                            "id": "st-7cfcc8b16a2b",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-f926e06700d3",
+                                                    "id": "lnk-27572019fe58",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/95815680bbc09333794b6ca7e3f610da/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/19f947e09bded25a1f7aaca3ed797c64/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/al-kahraba-club-vs-newroz-sc-2449526"
+                                                            "value": "https://hoadaotv.me/fc-lyn-oslo-b-vs-raelingen-2448721"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2095,8 +1911,8 @@
                     ]
                 },
                 {
-                    "id": "ch-yantragabrovovsvihrensandanski2447142",
-                    "name": "Yantra Gabrovo vs Vihren Sandanski",
+                    "id": "ch-rosenborgbvskviktrondheim2447106",
+                    "name": "Rosenborg B vs Kvik Trondheim",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2107,7 +1923,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513126/matches/img-yantragabrovovsvihrensandanski2447142.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522382/matches/img-rosenborgbvskviktrondheim2447106.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2116,27 +1932,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-5a3d549ccd1a",
-                            "name": "Yantra Gabrovo - Vihren Sandanski",
+                            "id": "src-d983c30a4a6e",
+                            "name": "Rosenborg B - Kvik Trondheim",
                             "contents": [
                                 {
-                                    "id": "ct-df0404b4ee7c",
-                                    "name": "Bulgarian Vtora Liga",
+                                    "id": "ct-2030f10b22f3",
+                                    "name": "Norwegian 3.Divisjon",
                                     "streams": [
                                         {
-                                            "id": "st-551bc276b189",
+                                            "id": "st-c0a7362f5d32",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-3d724552d911",
+                                                    "id": "lnk-035a395b3652",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/7b4c8a100bfbbae9eb0360399e104b6b/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/53eda43b9aba2f4361d2d8fa3b3e86eb/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/yantra-gabrovo-vs-vihren-sandanski-2447142"
+                                                            "value": "https://hoadaotv.me/rosenborg-b-vs-kvik-trondheim-2447106"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2153,8 +1969,8 @@
                     ]
                 },
                 {
-                    "id": "ch-torreenseu23vsleixoesu232449533",
-                    "name": "Torreense U23 vs Leixoes U23",
+                    "id": "ch-bodrumfkvscorumbelediyespor2451037",
+                    "name": "Bodrum FK vs Corum Belediyespor",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2165,7 +1981,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513127/matches/img-torreenseu23vsleixoesu232449533.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522382/matches/img-bodrumfkvscorumbelediyespor2451037.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2174,27 +1990,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-e79dc489dc5c",
-                            "name": "Torreense U23 - Leixoes U23",
+                            "id": "src-7a6472118815",
+                            "name": "Bodrum FK - Corum Belediyespor",
                             "contents": [
                                 {
-                                    "id": "ct-d53fb9c49fff",
-                                    "name": "Portugal Taca Revelacao U23",
+                                    "id": "ct-f8618bf9d2da",
+                                    "name": "Turkish First League",
                                     "streams": [
                                         {
-                                            "id": "st-e028526f65af",
+                                            "id": "st-8db8fc984cba",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-2f8bc3ceacdf",
+                                                    "id": "lnk-efd3053b7bde",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/987fce7f910a268ee5b0bce9d6e58099/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/fdb15e77f12c937819527d9bff3ac186/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/torreense-u23-vs-leixoes-u23-2449533"
+                                                            "value": "https://hoadaotv.me/bodrum-fk-vs-corum-belediyespor-2451037"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2211,8 +2027,8 @@
                     ]
                 },
                 {
-                    "id": "ch-grobinavsjelgava2449529",
-                    "name": "Grobina vs Jelgava",
+                    "id": "ch-dynamomoscowvsfkkrasnodar2449843",
+                    "name": "Dynamo Moscow vs FK Krasnodar",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2223,7 +2039,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513127/matches/img-grobinavsjelgava2449529.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522384/matches/img-dynamomoscowvsfkkrasnodar2449843.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2232,27 +2048,344 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-74cff3fbe3be",
-                            "name": "Grobina - Jelgava",
+                            "id": "src-e2b78d7d3a9b",
+                            "name": "Dynamo Moscow - FK Krasnodar",
                             "contents": [
                                 {
-                                    "id": "ct-c4ba2f97f8b9",
+                                    "id": "ct-8043f93c95ce",
+                                    "name": "Russian Premier League",
+                                    "streams": [
+                                        {
+                                            "id": "st-b01b3e37af4d",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-458586ad97a9",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dlqcalr.alilicloud.com/live/16d1250db749345518124d67d1405621/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/dynamo-moscow-vs-fk-krasnodar-2449843"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-04226887989f",
+                                                    "name": "HD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/dynamo-moscow-vs-fk-krasnodar-2449843"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-6770de0fee18",
+                                                    "name": "SD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/dynamo-moscow-vs-fk-krasnodar-2449843"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-3f94bd058f59",
+                                                    "name": "FullHD",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan/index.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/dynamo-moscow-vs-fk-krasnodar-2449843"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-a03b739af91e",
+                                                    "name": "FL",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/dynamo-moscow-vs-fk-krasnodar-2449843"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "lnk-5141d22925a9",
+                                                    "name": "FLV2",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/dynamo-moscow-vs-fk-krasnodar-2449843"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-friggvskfumosloii2449841",
+                    "name": "Frigg vs KFUM Oslo II",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522383/matches/img-friggvskfumosloii2449841.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-1111d969f388",
+                            "name": "Frigg - KFUM Oslo II",
+                            "contents": [
+                                {
+                                    "id": "ct-2f89d8ef8989",
+                                    "name": "Norwegian 3.Divisjon",
+                                    "streams": [
+                                        {
+                                            "id": "st-e11f43a5307c",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-20cfb08f1bc9",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dlqcalr.alilicloud.com/live/3950c19dce821953f36d210674a275e2/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/frigg-vs-kfum-oslo-ii-2449841"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-cracoviakrakowvsradomiakradom2449844",
+                    "name": "Cracovia Krakow vs Radomiak Radom",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522384/matches/img-cracoviakrakowvsradomiakradom2449844.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-21b63a994fa3",
+                            "name": "Cracovia Krakow - Radomiak Radom",
+                            "contents": [
+                                {
+                                    "id": "ct-b873f01e82d1",
+                                    "name": "PKO Bank Polski EKSTRAKLASA",
+                                    "streams": [
+                                        {
+                                            "id": "st-ce1dc8ce7b8c",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-77f9fe4cc9c8",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dlqcalr.alilicloud.com/live/0cbc30e2ba143b7d9b3ae3ca1f862717/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/cracovia-krakow-vs-radomiak-radom-2449844"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-egersundsikvsoddgrenland2449846",
+                    "name": "Egersunds IK vs Odd Grenland",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522385/matches/img-egersundsikvsoddgrenland2449846.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-7c5ebb257e31",
+                            "name": "Egersunds IK - Odd Grenland",
+                            "contents": [
+                                {
+                                    "id": "ct-9273f851c946",
+                                    "name": "Norwegian 1.Divisjon",
+                                    "streams": [
+                                        {
+                                            "id": "st-7a4acad65b72",
+                                            "name": "Stream",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-8d145620833e",
+                                                    "name": "Nhà đài",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dlqcalr.alilicloud.com/live/a9d37f6cfd2aa14a1587e673f50704b2/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoadaotv.me/egersunds-ik-vs-odd-grenland-2449846"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ch-supernovavstukums20002449849",
+                    "name": "Super Nova vs Tukums-2000",
+                    "labels": [
+                        {
+                            "position": "top-left",
+                            "text": "● Live",
+                            "color": "#FF0000",
+                            "text_color": "#FFFFFF",
+                            "font_size": 8
+                        }
+                    ],
+                    "image": {
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522386/matches/img-supernovavstukums20002449849.png",
+                        "height": 480,
+                        "width": 640,
+                        "display": "cover"
+                    },
+                    "type": "single",
+                    "display": "overlay",
+                    "sources": [
+                        {
+                            "id": "src-bbe15c3fc0fb",
+                            "name": "Super Nova - Tukums-2000",
+                            "contents": [
+                                {
+                                    "id": "ct-3e47a6f73bd3",
                                     "name": "Latvian Higher League",
                                     "streams": [
                                         {
-                                            "id": "st-ebb44a6fae82",
+                                            "id": "st-ebf22ab23bc7",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-40924f690b1e",
+                                                    "id": "lnk-0e3c3ff6eb3a",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/4d1016b2d1bcfbfd9c683c6b2787f343/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/74a0bb3fd841680e9771899b223c9541/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/grobina-vs-jelgava-2449529"
+                                                            "value": "https://hoadaotv.me/super-nova-vs-tukums-2000-2449849"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2269,8 +2402,8 @@
                     ]
                 },
                 {
-                    "id": "ch-hegelmannlitaueniivsfktransinvestb2449534",
-                    "name": "Hegelmann Litauen II vs FK Transinvest B",
+                    "id": "ch-iksiriusfkvsorgryte2449848",
+                    "name": "IK Sirius FK vs Orgryte",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2281,7 +2414,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513128/matches/img-hegelmannlitaueniivsfktransinvestb2449534.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522386/matches/img-iksiriusfkvsorgryte2449848.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2290,27 +2423,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-91584d326bd2",
-                            "name": "Hegelmann Litauen II - FK Transinvest B",
+                            "id": "src-f496a021a307",
+                            "name": "IK Sirius FK - Orgryte",
                             "contents": [
                                 {
-                                    "id": "ct-dbb4880badc2",
-                                    "name": "Lithuanian I Lyga",
+                                    "id": "ct-c7941c8374f4",
+                                    "name": "Sweden Allsvenskan",
                                     "streams": [
                                         {
-                                            "id": "st-51bf251c28f7",
+                                            "id": "st-31356853119e",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-e2e518b996ad",
+                                                    "id": "lnk-893eb515922d",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/2e0ccdc758db2ad5badeab6218995c0d/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/5770b6c397c2c91eaba0bfaa4396c01b/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/hegelmann-litauen-ii-vs-fk-transinvest-b-2449534"
+                                                            "value": "https://hoadaotv.me/ik-sirius-fk-vs-orgryte-2449848"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2327,8 +2460,8 @@
                     ]
                 },
                 {
-                    "id": "ch-dinamojugvstekstilac2449535",
-                    "name": "Dinamo Jug vs Tekstilac",
+                    "id": "ch-randersfcvsodensebk2449851",
+                    "name": "Randers FC vs Odense BK",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2339,7 +2472,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513129/matches/img-dinamojugvstekstilac2449535.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522387/matches/img-randersfcvsodensebk2449851.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2348,27 +2481,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-9e9a568ec954",
-                            "name": "Dinamo Jug - Tekstilac",
+                            "id": "src-f8dfdb46f4c7",
+                            "name": "Randers FC - Odense BK",
                             "contents": [
                                 {
-                                    "id": "ct-a1e6f0b18c9d",
-                                    "name": "Serbian Mozzart Bet Prva Liga",
+                                    "id": "ct-326aa0a9eb29",
+                                    "name": "Danish Superliga",
                                     "streams": [
                                         {
-                                            "id": "st-56cad9835786",
+                                            "id": "st-5f36fb7cea16",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-95db7b517cab",
+                                                    "id": "lnk-e912387cf0d1",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/77df0d3aeb3f2b963984a67adfc8471e/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/1a105f9618d9c74306c0414c18fc166f/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/dinamo-jug-vs-tekstilac-2449535"
+                                                            "value": "https://hoadaotv.me/randers-fc-vs-odense-bk-2449851"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2385,8 +2518,8 @@
                     ]
                 },
                 {
-                    "id": "ch-semendrija1924vsboraccacak2449537",
-                    "name": "Semendrija 1924 vs Borac Cacak",
+                    "id": "ch-fcmetalurgirustavivsdinamotbilisi2449850",
+                    "name": "FC Metalurgi Rustavi vs Dinamo Tbilisi",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2397,7 +2530,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513129/matches/img-semendrija1924vsboraccacak2449537.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522386/matches/img-fcmetalurgirustavivsdinamotbilisi2449850.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2406,85 +2539,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-7b36716261c9",
-                            "name": "Semendrija 1924 - Borac Cacak",
+                            "id": "src-90a7900d4e29",
+                            "name": "FC Metalurgi Rustavi - Dinamo Tbilisi",
                             "contents": [
                                 {
-                                    "id": "ct-2635d96833c8",
-                                    "name": "Serbian Mozzart Bet Prva Liga",
-                                    "streams": [
-                                        {
-                                            "id": "st-d4d3f77c2c17",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-5fbac1f38112",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/2a28a127a9b155f62410a7a610008629/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/semendrija-1924-vs-borac-cacak-2449537"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-spaerifcvsgagrafc2449538",
-                    "name": "Spaeri FC vs Gagra FC",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513129/matches/img-spaerifcvsgagrafc2449538.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-ff83a2dc9127",
-                            "name": "Spaeri FC - Gagra FC",
-                            "contents": [
-                                {
-                                    "id": "ct-d2e7e79a8367",
+                                    "id": "ct-bf87ee2a1c31",
                                     "name": "Georgia Erovnuli Liga",
                                     "streams": [
                                         {
-                                            "id": "st-ca49e3c257e5",
+                                            "id": "st-ec107460a5cd",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-5e9df0368100",
+                                                    "id": "lnk-ed10f71e0130",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/cc118008f67c1876f63b3504a4dc88f1/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/95caa45314332d368701d0df4d869478/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/spaeri-fc-vs-gagra-fc-2449538"
+                                                            "value": "https://hoadaotv.me/fc-metalurgi-rustavi-vs-dinamo-tbilisi-2449850"
                                                         },
                                                         {
                                                             "key": "User-Agent",
@@ -2501,8 +2576,8 @@
                     ]
                 },
                 {
-                    "id": "ch-metaloglobusvshermannstadt2449539",
-                    "name": "Metaloglobus vs Hermannstadt",
+                    "id": "ch-fratriavsfcdunavruse2447188",
+                    "name": "Fratria vs FC Dunav Ruse",
                     "labels": [
                         {
                             "position": "top-left",
@@ -2513,7 +2588,7 @@
                         }
                     ],
                     "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513130/matches/img-metaloglobusvshermannstadt2449539.png",
+                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778522387/matches/img-fratriavsfcdunavruse2447188.png",
                         "height": 480,
                         "width": 640,
                         "display": "cover"
@@ -2522,143 +2597,27 @@
                     "display": "overlay",
                     "sources": [
                         {
-                            "id": "src-164fd288a60e",
-                            "name": "Metaloglobus - Hermannstadt",
+                            "id": "src-9ee0737e2449",
+                            "name": "Fratria - FC Dunav Ruse",
                             "contents": [
                                 {
-                                    "id": "ct-46516b837207",
-                                    "name": "Romanian Super Liga",
+                                    "id": "ct-0bfbe1294e6e",
+                                    "name": "Bulgarian Vtora Liga",
                                     "streams": [
                                         {
-                                            "id": "st-3c84176f40dc",
+                                            "id": "st-f3048f978e8e",
                                             "name": "Stream",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-0e44fda95b64",
+                                                    "id": "lnk-8242ca909c39",
                                                     "name": "Nhà đài",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/5705d2bdb09e6b3906a15165c16a244c/playlist.m3u8",
+                                                    "url": "https://dlqcalr.alilicloud.com/live/db95d1a2176c9a534abea6124767d291/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
-                                                            "value": "https://hoadaotv.me/metaloglobus-vs-hermannstadt-2449539"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-pogradecivsbesakavaje2451589",
-                    "name": "Pogradeci vs Besa Kavaje",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513131/matches/img-pogradecivsbesakavaje2451589.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-cec41734ea38",
-                            "name": "Pogradeci - Besa Kavaje",
-                            "contents": [
-                                {
-                                    "id": "ct-864d0de13596",
-                                    "name": "Albanian Division 1",
-                                    "streams": [
-                                        {
-                                            "id": "st-d9ded48fa9c8",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-178d345ac9e9",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/372c1fd8db168ef1f8943862604d9d8c/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/pogradeci-vs-besa-kavaje-2451589"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "id": "ch-benficau23vsbragau232449845",
-                    "name": "Benfica U23 vs Braga U23",
-                    "labels": [
-                        {
-                            "position": "top-left",
-                            "text": "● Live",
-                            "color": "#FF0000",
-                            "text_color": "#FFFFFF",
-                            "font_size": 8
-                        }
-                    ],
-                    "image": {
-                        "url": "https://res.cloudinary.com/dpa4nneuo/image/upload/v1778513131/matches/img-benficau23vsbragau232449845.png",
-                        "height": 480,
-                        "width": 640,
-                        "display": "cover"
-                    },
-                    "type": "single",
-                    "display": "overlay",
-                    "sources": [
-                        {
-                            "id": "src-92294a43a38c",
-                            "name": "Benfica U23 - Braga U23",
-                            "contents": [
-                                {
-                                    "id": "ct-a3c6504bcffe",
-                                    "name": "Portugal Taca Revelacao U23",
-                                    "streams": [
-                                        {
-                                            "id": "st-5554237494cb",
-                                            "name": "Stream",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-a7e33006c913",
-                                                    "name": "Nhà đài",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dlqcalr.alilicloud.com/live/ee754ae0b018cbd8a8a419fe53243875/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoadaotv.me/benfica-u23-vs-braga-u23-2449845"
+                                                            "value": "https://hoadaotv.me/fratria-vs-fc-dunav-ruse-2447188"
                                                         },
                                                         {
                                                             "key": "User-Agent",
