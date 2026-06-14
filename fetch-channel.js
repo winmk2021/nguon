@@ -9,6 +9,8 @@ const { uploadImage, deleteOldImages } = require("./cloudinary.js");
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const CANDIDATE_DOMAINS = [
+  "https://sv1.tieulam1.live",
+  "https://sv2.tieulam1.live",
   "https://hoadaotv.net",
   "https://hoadao1.tv",
   "https://hoadaotv.info",
